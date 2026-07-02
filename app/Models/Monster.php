@@ -28,15 +28,17 @@ class Monster extends Model
     public function scopeFilter(Builder $query, array $filters): void
     {
         $query->when(
-            $filters['search'] ?? false, 
-            fn ($query, $search) => 
-                $query->where('name', 'like', '%' . $search . '%')
+            $filters['search'] ?? false,
+            fn($query, $search) =>
+            $query->where('name', 'like', '%' . $search . '%')
         );
 
-        $query->when(
-            $filters['series'] ?? false, 
-            fn ($query, $seriesSlug) => 
-                $query->whereHas('series', fn($query) => $query->where('slug', $seriesSlug))
-        );
+        $query->when($filters['size'] ?? false, function ($query, $size) {
+            if ($size === 'large') {
+                return $query->where('isLarge', true);
+            } elseif ($size === 'small') {
+                return $query->where('isLarge', false);
+            }
+        });
     }
 }

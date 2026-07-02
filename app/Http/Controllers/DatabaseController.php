@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Monster;
 use App\Models\Series;
 use Illuminate\Http\Request;
 
@@ -24,43 +23,24 @@ class DatabaseController extends Controller
             ->get();
     }
 
-    // public function index()
-    // {
-    //     $mainSeriesNav = $this->mainSeriesNav;
-    //     $spinOffNav = $this->spinOffNav;
-
-    //     return view('series', compact('mainSeriesNav', 'spinOffNav'));
-    // }
-
     public function index()
     {
-        $monsters = null;
-        $keyword = request('search');
-
-        if ($keyword) {
-            $monsters = Monster::with('series')
-                ->filter(request(['search']))
-                ->orderBy('name', 'asc')
-                ->paginate(15)
-                ->withQueryString();
-        }
-
         return view('series', [
             'mainSeriesNav' => $this->mainSeriesNav,
-            'spinOffNav'    => $this->spinOffNav,
-            'monsters'      => $monsters,
-            'keyword'       => $keyword
+            'spinOffNav' => $this->spinOffNav
         ]);
     }
 
-    public function show(Series $series)
+    public function show(Series $series, Request $request)
     {
-        $series->load('monsters');
+        $monsters = $series->monsters()
+            ->filter(request(['search', 'size']))->orderBy('asc')->paginate(25)->withQueryString();
 
         return view('series', [
-            'series'        => $series,
+            'series' => $series,
+            'monsters' => $monsters,
             'mainSeriesNav' => $this->mainSeriesNav,
-            'spinOffNav'    => $this->spinOffNav
+            'spinOffNav' => $this->spinOffNav
         ]);
     }
 }

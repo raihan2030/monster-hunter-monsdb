@@ -75,8 +75,7 @@
                                 class="relative flex items-center h-10 pl-6 rounded-full after:block after:w-2 after:h-2 after:rounded-sm after:absolute after:-left-2 
                                 {{ $isActive
                                     ? 'underline font-semibold text-white after:bg-indigo-500'
-                                    : 'hover:font-semibold font-light text-zinc-200 after:bg-zinc-600' }}"
-                            >
+                                    : 'hover:font-semibold font-light text-zinc-200 after:bg-zinc-600' }}">
                                 <span class="text-sm">{{ $item->acronym }}</span>
                             </a>
                         @endforeach
@@ -115,8 +114,7 @@
                                 class="relative flex items-center h-10 pl-6 rounded-full after:block after:w-2 after:h-2 after:rounded-sm after:absolute after:-left-2 
                                 {{ $isActive
                                     ? 'underline font-semibold text-white after:bg-indigo-500'
-                                    : 'hover:font-semibold font-light text-zinc-200 after:bg-zinc-600' }}"
-                            >
+                                    : 'hover:font-semibold font-light text-zinc-200 after:bg-zinc-600' }}">
                                 <span class="text-sm">{{ $item->acronym }}</span>
                             </a>
                         @endforeach
@@ -129,7 +127,7 @@
             <div class="flex justify-center my-2">
                 <p class="text-4xl text-white font-bold">
                     @if (isset($series->name))
-                        {{ $series->name }} Monsters
+                        {{ $series->name }}
                     @else
                         Monsters Database
                     @endif
@@ -139,7 +137,10 @@
             <!-- Search & Filter -->
             <div class="flex justify-between pt-5">
                 <!-- Search -->
-                <form class="">
+                <form action="{{ url()->current() }}" method="GET">
+                    @foreach (request()->except('search', 'page') as $key => $value)
+                        <input type="hidden" name="{{ $key }}" value="{{ $value }}">
+                    @endforeach
                     <label for="default-search"
                         class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">
                         Search
@@ -152,30 +153,35 @@
                                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
                         </div>
-                        <input type="search" id="search" name="search"
-                            class="h-12 block p-4 pl-10 w-3xl text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 focus:outline-2 focus:outline-offset-2 focus:outline-blue-500 max-w-xs"
-                            placeholder="Search monsters..." required v-model.trim="inputSearch" />
+                        <input type="search" id="search" name="search" value="{{ request('search') }}"
+                            placeholder="Search monsters..."
+                            class="h-12 block p-4 pl-10 w-3xl text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 hover:border-blue-500 focus:outline-1 focus:outline-blue-500 max-w-xs"
+                            v-model.trim="inputSearch" />
                     </div>
                 </form>
 
                 <!-- Filter -->
                 <div class="flex items-center">
-                    <button x-data="{ active: false }" @click="active = !active"
-                        :class="active ? 'bg-blue-400 text-white border' : ''"
-                        class="h-10 me-3 py-2 px-6 text-gray-300 border border-gray-500 rounded-2xl hover:border-blue-500 cursor-pointer">
+                    @php
+                        $isSmallActive = request('size') === 'small';
+                        $isLargeActive = request('size') === 'large';
+                    @endphp
+
+                    <a href="{{ request()->fullUrlWithQuery(['size' => $isSmallActive ? null : 'small', 'page' => null]) }}"
+                        class="{{ $isSmallActive ? 'bg-blue-400 text-white border-blue-400' : 'text-gray-300 border-gray-500' }} flex items-center justify-center h-10 me-3 py-2 px-6 border rounded-2xl hover:border-blue-500 transition">
                         <span class="font-semibold">Small Monsters</span>
-                    </button>
-                    <button x-data="{ active: false }" @click="active = !active"
-                        :class="active ? 'bg-blue-400 text-white border' : ''"
-                        class="h-10 py-2 px-6 text-gray-300 border border-gray-500 rounded-2xl hover:border-blue-500 cursor-pointer">
+                    </a>
+
+                    <a href="{{ request()->fullUrlWithQuery(['size' => $isLargeActive ? null : 'large', 'page' => null]) }}"
+                        class="{{ $isLargeActive ? 'bg-blue-400 text-white border-blue-400' : 'text-gray-300 border-gray-500' }} flex items-center justify-center h-10 py-2 px-6 border rounded-2xl hover:border-blue-500 transition">
                         <span class="font-semibold">Large Monsters</span>
-                    </button>
+                    </a>
                 </div>
             </div>
 
             @if (isset($series))
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-5">
-                    @foreach ($series->monsters as $monster)
+                    @foreach ($monsters as $monster)
                         <a href="#"
                             class="bg-gray-800 border border-gray-800 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
                             <img src="{{ asset('/img/icons/' . $monster->pivot->image) }}" alt=""
@@ -184,6 +190,9 @@
                         </a>
                     @endforeach
 
+                </div>
+                <div class="mt-8">
+                    {{ $monsters->links() }}
                 </div>
             @else
                 <div class="flex justify-center mt-7">
