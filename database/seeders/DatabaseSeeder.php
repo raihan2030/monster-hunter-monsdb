@@ -23,6 +23,10 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->call([MonsterSeeder::class]);
+        $this->call([
+            TypeSeeder::class,
+            SeriesSeeder::class,
+            MonsterSeeder::class,
+        ]);
     }
 }

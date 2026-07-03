@@ -30,9 +30,9 @@
                 <div class="hidden sm:ml-6 sm:block">
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-                        <a href="/home" aria-current="page"
+                        <a href="{{ route('home') }}" aria-current="page"
                             class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">Home</a>
-                        <a href="/database"
+                        <a href="{{ route('database') }}"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                         <a href="#"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
@@ -49,14 +49,16 @@
         <el-disclosure id="mobile-menu" hidden class="block sm:hidden">
             <div class="space-y-1 px-2 pt-2 pb-3">
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
-                <a href="/home" aria-current="page"
+                <a href="{{ route('home') }}" aria-current="page"
                     class="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">Home</a>
-                <a href="/database"
+                <a href="{{ route('database') }}"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                 <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About Site</a>
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
+                    Site</a>
                 <a href="#"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About Me</a>
+                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
+                    Me</a>
             </div>
         </el-disclosure>
     </nav>
@@ -67,9 +69,9 @@
         <img src="/img/749574.jpg" alt="Home BG" class="w-full h-full object-cover object-center brightness-50">
 
         <div class="absolute inset-0 flex items-center justify-center text-center p-4">
-            <h2 class="text-white text-6xl font-bold tracking-tight drop-shadow-lg">
-                Monster Hunter<br>
-                Ecology Database
+            <h2 class="flex flex-col gap-1 text-white tracking-tight drop-shadow-lg">
+                <span class="text-6xl font-bold">MonsDB</span>
+                <span class="text-xl font-normal">Monster Database for Monster Hunter Games</span>
             </h2>
         </div>
 
@@ -108,8 +110,8 @@
 
         {{-- List Card Main Series --}}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
-            @foreach($mainSeriesGrid as $item)
-                <a href="/database/{{ $item->slug }}"
+            @foreach ($mainSeriesGrid as $item)
+                <a href="{{ route('database.show', ['series' => $item->slug]) }}"
                     class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
                     <img src="{{ asset($item->image_path) }}" alt="{{ $item->name }}"
                         class="w-full h-full object-cover object-center rounded-xl">
@@ -128,20 +130,13 @@
 
         {{-- List Card Main Series --}}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
-
-            @foreach($spinOffGrid as $item)
-            <a href="/"
-                class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
-                <img src="{{ asset($item->image_path) }}" alt="{{ $item->name }}"
-                    class="w-full h-full object-cover object-center rounded-xl">
-            </a>
+            @foreach ($spinOffGrid as $item)
+                <a href="{{ route('database.show', ['series' => $item->slug]) }}"
+                    class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
+                    <img src="{{ asset($item->image_path) }}" alt="{{ $item->name }}"
+                        class="w-full h-full object-cover object-center rounded-xl">
+                </a>
             @endforeach
-            {{-- <a href="/"
-                class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
-                <img src="/img/series-logo/mhst2_logo.jpg" alt=""
-                    class="w-full h-full object-cover object-center rounded-xl">
-            </a> --}}
-
         </div>
     </div>
 </x-layout>

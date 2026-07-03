@@ -6,8 +6,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/home', [HomeController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/database', [DatabaseController::class, 'index']);
+Route::get('/database', [DatabaseController::class, 'index'])->name('database');
 
-Route::get('/database/{series:slug}', [DatabaseController::class, 'show']);
+Route::get('/database/{series:slug}', [DatabaseController::class, 'show'])->name('database.show');

@@ -25,6 +25,11 @@ class Monster extends Model
             ->withTimestamps();
     }
 
+    public function type()
+    {
+        return $this->belongsTo(Type::class);
+    }
+
     public function scopeFilter(Builder $query, array $filters): void
     {
         $query->when(
@@ -39,6 +44,12 @@ class Monster extends Model
             } elseif ($size === 'small') {
                 return $query->where('isLarge', false);
             }
+        });
+
+        $query->when($filters['type'] ?? false, function ($query, $type) {
+            return $query->whereHas('type', function ($query) use ($type) {
+                $query->where('slug', $type);
+            });
         });
     }
 }

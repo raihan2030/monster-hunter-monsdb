@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Series;
+use App\Models\Type;
 use Illuminate\Http\Request;
 
 class DatabaseController extends Controller
@@ -25,7 +26,7 @@ class DatabaseController extends Controller
 
     public function index()
     {
-        return view('series', [
+        return view('database', [
             'mainSeriesNav' => $this->mainSeriesNav,
             'spinOffNav' => $this->spinOffNav
         ]);
@@ -34,11 +35,12 @@ class DatabaseController extends Controller
     public function show(Series $series, Request $request)
     {
         $monsters = $series->monsters()
-            ->filter(request(['search', 'size']))->orderBy('asc')->paginate(25)->withQueryString();
+            ->filter(request(['search', 'size', 'type']))->orderBy('asc')->paginate(15)->withQueryString();
 
-        return view('series', [
+        return view('database', [
             'series' => $series,
             'monsters' => $monsters,
+            'types' => Type::orderBy('name')->get(),
             'mainSeriesNav' => $this->mainSeriesNav,
             'spinOffNav' => $this->spinOffNav
         ]);

@@ -26,7 +26,7 @@
             <!-- Home -->
             <nav class="flex flex-col grow gap-2 py-5 px-4">
                 <div class="relative flex items-center w-full rounded-full hover:bg-gray-600 duration-300">
-                    <a href="/home" class="flex items-center grow h-12 gap-6 px-5">
+                    <a href="{{ route('home') }}" class="flex items-center grow h-12 gap-6 px-5">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-5">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -71,7 +71,8 @@
                                 $isActive = request()->is('database/' . $item->slug);
                             @endphp
 
-                            <a href="/database/{{ $item->slug }}" aria-current="{{ $isActive ? 'page' : 'false' }}"
+                            <a href="{{ route('database.show', ['series' => $item->slug]) }}"
+                                aria-current="{{ $isActive ? 'page' : 'false' }}"
                                 class="relative flex items-center h-10 pl-6 rounded-full after:block after:w-2 after:h-2 after:rounded-sm after:absolute after:-left-2 
                                 {{ $isActive
                                     ? 'underline font-semibold text-white after:bg-indigo-500'
@@ -83,7 +84,7 @@
                 </div>
 
                 <!-- Spin-offs -->
-                <div x-data="{ open: false }" class="w-full">
+                <div x-data="{ open: true }" class="w-full">
                     <div @click="open = !open"
                         class="flex items-center w-full rounded-full hover:bg-gray-600 duration-300 cursor-pointer"
                         :class="open ? 'bg-gray-600' : ''">
@@ -110,7 +111,8 @@
                                 $isActive = request()->is('database/' . $item->slug);
                             @endphp
 
-                            <a href="/database/{{ $item->slug }}" aria-current="{{ $isActive ? 'page' : 'false' }}"
+                            <a href="{{ route('database.show', ['series' => $item->slug]) }}"
+                                aria-current="{{ $isActive ? 'page' : 'false' }}"
                                 class="relative flex items-center h-10 pl-6 rounded-full after:block after:w-2 after:h-2 after:rounded-sm after:absolute after:-left-2 
                                 {{ $isActive
                                     ? 'underline font-semibold text-white after:bg-indigo-500'
@@ -155,45 +157,137 @@
                         </div>
                         <input type="search" id="search" name="search" value="{{ request('search') }}"
                             placeholder="Search monsters..."
-                            class="h-12 block p-4 pl-10 w-3xl text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 hover:border-blue-500 focus:outline-1 focus:outline-blue-500 max-w-xs"
+                            class="h-12 block p-4 pl-10 w-3xl text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 hover:border-blue-600 focus:outline-1 focus:outline-blue-600 max-w-xs"
                             v-model.trim="inputSearch" />
                     </div>
                 </form>
 
                 <!-- Filter -->
                 <div class="flex items-center">
+                    {{-- Size Filter --}}
                     @php
                         $isSmallActive = request('size') === 'small';
                         $isLargeActive = request('size') === 'large';
+                        $isActive = $isSmallActive || $isLargeActive;
+
+                        $currentLabel = $isSmallActive
+                            ? 'Small Monsters'
+                            : ($isLargeActive
+                                ? 'Large Monsters'
+                                : 'All Sizes');
                     @endphp
 
-                    <a href="{{ request()->fullUrlWithQuery(['size' => $isSmallActive ? null : 'small', 'page' => null]) }}"
-                        class="{{ $isSmallActive ? 'bg-blue-400 text-white border-blue-400' : 'text-gray-300 border-gray-500' }} flex items-center justify-center h-10 me-3 py-2 px-6 border rounded-2xl hover:border-blue-500 transition">
-                        <span class="font-semibold">Small Monsters</span>
-                    </a>
+                    <div x-data="{ open: false }" class="relative w-full sm:w-auto shrink-0"
+                        @click.outside="open = false">
+                        <div @click="open = !open"
+                            class="flex items-center justify-between gap-3 h-10 py-2 px-7 me-3 border rounded-2xl hover:border-blue-500 transition cursor-pointer w-47
+                            {{ $isActive ? 'bg-blue-600 text-white border-blue-600' : 'text-gray-300 border-gray-500' }}">
+                            <span class="font-semibold whitespace-nowrap">{{ $currentLabel }}</span>
 
-                    <a href="{{ request()->fullUrlWithQuery(['size' => $isLargeActive ? null : 'large', 'page' => null]) }}"
-                        class="{{ $isLargeActive ? 'bg-blue-400 text-white border-blue-400' : 'text-gray-300 border-gray-500' }} flex items-center justify-center h-10 py-2 px-6 border rounded-2xl hover:border-blue-500 transition">
-                        <span class="font-semibold">Large Monsters</span>
-                    </a>
+                            <svg :class="open ? 'rotate-180' : ''" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="w-4 h-4 transition-transform shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+
+                        {{-- Dropdown list --}}
+                        <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                            x-transition:enter-start="opacity-0 -translate-y-2"
+                            x-transition:enter-end="opacity-100 translate-y-0"
+                            class="absolute z-10 mt-2 w-full bg-slate-900 border border-gray-500 rounded-2xl overflow-hidden"
+                            x-cloak>
+
+                            <a href="{{ request()->fullUrlWithQuery(['size' => null, 'page' => null]) }}"
+                                class="block px-5 py-2 hover:bg-gray-700
+                                {{ !$isSmallActive && !$isLargeActive ? 'font-semibold text-white' : 'text-gray-300' }}">
+                                All Sizes
+                            </a>
+
+                            <a href="{{ request()->fullUrlWithQuery(['size' => $isSmallActive ? null : 'small', 'page' => null]) }}"
+                                class="block px-5 py-2 hover:bg-gray-700
+                                {{ $isSmallActive ? 'font-semibold text-white' : 'text-gray-300' }}">
+                                Small Monsters
+                            </a>
+
+                            <a href="{{ request()->fullUrlWithQuery(['size' => $isLargeActive ? null : 'large', 'page' => null]) }}"
+                                class="block px-5 py-2 hover:bg-gray-700
+                                {{ $isLargeActive ? 'font-semibold text-white' : 'text-gray-300' }}">
+                                Large Monsters
+                            </a>
+                        </div>
+                    </div>
+
+                    {{-- Monster Type Filter --}}
+                    @php
+                        $isTypeActive = request('type') !== null && request('type') !== '';
+
+                        $currentTypeLabel = 'All Types';
+                        if ($isTypeActive) {
+                            $selectedType = $types->firstWhere('slug', request('type'));
+                            $currentTypeLabel = $selectedType ? $selectedType->name : 'All Types';
+                        }
+                    @endphp
+
+                    <div x-data="{ open: false }" class="relative w-full sm:w-auto shrink-0"
+                        @click.outside="open = false">
+                        <div @click="open = !open"
+                            class="flex items-center justify-between gap-3 h-10 py-2 px-7 border rounded-2xl hover:border-blue-500 transition cursor-pointer w-47 whitespace-nowrap
+                            {{ $isTypeActive ? 'bg-blue-600 text-white border-blue-600' : 'text-gray-300 border-gray-500' }}">
+                            <span class="font-semibold whitespace-nowrap">{{ $currentTypeLabel }}</span>
+
+                            <svg :class="open ? 'rotate-180' : ''" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                class="w-4 h-4 transition-transform shrink-0">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+
+                        {{-- Dropdown list --}}
+                        <div x-show="open" x-transition:enter="transition ease-out duration-200"
+                            x-transition:enter-start="opacity-0 -translate-y-2"
+                            x-transition:enter-end="opacity-100 translate-y-0"
+                            class="absolute z-10 mt-2 w-full bg-slate-900 border border-gray-500 rounded-2xl overflow-hidden"
+                            x-cloak>
+
+                            <a href="{{ request()->fullUrlWithQuery(['type' => null, 'page' => null]) }}"
+                                class="block px-5 py-2 hover:bg-gray-700 {{ !$isTypeActive ? 'font-semibold text-white' : 'text-gray-300' }}">
+                                All Types
+                            </a>
+
+                            @foreach ($types as $type)
+                                <a href="{{ request()->fullUrlWithQuery(['type' => request('type') === $type->slug ? null : $type->slug, 'page' => null]) }}"
+                                    class="block px-5 py-2 hover:bg-gray-700 {{ request('type') === $type->slug ? 'font-semibold text-white' : 'text-gray-300' }}">
+                                    {{ $type->name }}
+                                </a>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            @if (isset($series))
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-5">
-                    @foreach ($monsters as $monster)
-                        <a href="#"
-                            class="bg-gray-800 border border-gray-800 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
-                            <img src="{{ asset('/img/icons/' . $monster->pivot->image) }}" alt=""
-                                class="h-2/3 object-cover object-center rounded-xl" />
-                            <p class="text-xl font-bold py-2">{{ Str::limit($monster->name, 10, '...') }}</p>
-                        </a>
-                    @endforeach
+            {{-- Monster Grid --}}
+            @if (isset($monsters))
+                @if ($monsters->isEmpty())
+                    <div class="flex justify-center mt-7">
+                        <h1 class="text-xl text-white italic">No data</h1>
+                    </div>
+                @else
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 pt-5">
+                        @foreach ($monsters as $monster)
+                            <a href="#"
+                                class="bg-gray-800 border border-gray-800 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
+                                <img src="{{ asset('/img/icons/' . $monster->pivot->image) }}" alt=""
+                                    class="h-2/3 object-cover object-center rounded-xl" />
+                                <p class="text-lg font-bold pt-2">{{ Str::limit($monster->name, 13, '...') }}</p>
+                            </a>
+                        @endforeach
 
-                </div>
-                <div class="mt-8">
-                    {{ $monsters->links() }}
-                </div>
+                    </div>
+                    <div class="mt-8">
+                        {{ $monsters->links() }}
+                    </div>
+                @endif
             @else
                 <div class="flex justify-center mt-7">
                     <h1 class="text-xl text-white italic">Please select game series in sidebar</h1>

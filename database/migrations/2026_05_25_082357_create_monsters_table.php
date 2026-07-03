@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('monsters', function (Blueprint $table) {
             $table->id();
             $table->string('mongo_id')->nullable();
+            $table->foreignId('type_id')->nullable()->constrained('types')->onDelete('set null');
+
             $table->string('name');
-            $table->string('type');
             $table->boolean('isLarge')->default(false);
             $table->json('subSpecies')->nullable();
             $table->json('elements')->nullable();

@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Monster;
 use App\Models\Series;
+use App\Models\Type;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
@@ -20,36 +21,18 @@ class MonsterSeeder extends Seeder
         $data = json_decode($jsonContent, true);
         $monsters = $data['monsters'];
 
-        $releaseYears = [
-            'Monster Hunter Freedom Unite' => 2008,
-            'Monster Hunter 3 Ultimate' => 2011,
-            'Monster Hunter 4 Ultimate' => 2014,
-            'Monster Hunter Generations Ultimate' => 2017,
-            'Monster Hunter World' => 2018,
-            'Monster Hunter Rise' => 2021,
-            'Monster Hunter Wilds' => 2025,
-            'Monster Hunter Stories' => 2016,
-            'Monster Hunter Stories 2' => 2021,
-        ];
-
-        $gameAcronym = [
-            'Monster Hunter Freedom Unite' => 'MHFU',
-            'Monster Hunter 3 Ultimate' => 'MH3U',
-            'Monster Hunter 4 Ultimate' => 'MH4U',
-            'Monster Hunter Generations Ultimate' => 'MHGU',
-            'Monster Hunter World' => 'MH World',
-            'Monster Hunter Rise' => 'MH Rise',
-            'Monster Hunter Wilds' => 'MH Wilds',
-            'Monster Hunter Stories' => 'MHST',
-            'Monster Hunter Stories 2' => 'MHST2',
-        ];
+        // CACHE: Ambil semua ID Type dan Series ke dalam Array
+        // Formatnya akan menjadi ['Flying Wyvern' => 1, 'Bird Wyvern' => 2, ...]
+        $typesMap = Type::pluck('id', 'name');
+        $seriesMap = Series::pluck('id', 'name');
 
         foreach ($monsters as $monsterData) {
-            // 1. Simpan data monster
+
+            // 1. Simpan data monster (Ubah 'type' menjadi 'type_id')
             $monster = Monster::create([
                 'mongo_id'   => $monsterData['_id']['$oid'] ?? null,
                 'name'       => $monsterData['name'],
-                'type'       => $monsterData['type'],
+                'type_id'    => $typesMap[$monsterData['type']] ?? null, // Ambil ID dari mapping
                 'isLarge'    => $monsterData['isLarge'] ?? false,
                 'subSpecies' => $monsterData['subSpecies'] ?? [],
                 'elements'   => $monsterData['elements'] ?? [],
@@ -57,37 +40,31 @@ class MonsterSeeder extends Seeder
                 'weakness'   => $monsterData['weakness'] ?? [],
             ]);
 
-            // 2. Relasikan dengan tabel Series
+            // 2. Relasikan dengan tabel Series menggunakan ID hasil mapping
             if (isset($monsterData['games'])) {
+                $pivotData = [];
+
                 foreach ($monsterData['games'] as $gameData) {
-                    $isSpinOff = str_contains($gameData['game'], 'Stories');
-                    $type = $isSpinOff ? 'spin-off' : 'main';
+                    $gameName = $gameData['game'];
 
-                    $slug = Str::slug($gameData['game']);
-                    $acronym = $gameAcronym[$gameData['game']] ?? null;
-                    $imagePath = '/img/series-logo/' . Str::slug($gameData['game']) . '.jpg';
-                    $year = $releaseYears[$gameData['game']] ?? null;
+                    // Pastikan Series ditemukan di mapping agar tidak error
+                    if (isset($seriesMap[$gameName])) {
+                        $seriesId = $seriesMap[$gameName];
 
-                    $series = Series::firstOrCreate(
-                        ['name' => $gameData['game']],
-                        [
-                            'slug'         => $slug,
-                            'acronym'      => $acronym,
-                            'type'         => $type,
-                            'image_path'   => $imagePath,
-                            'release_year' => $year
-                        ]
-                    );
+                        // Siapkan array untuk Bulk Insert
+                        $pivotData[$seriesId] = [
+                            'image'  => $gameData['image'] ?? null,
+                            'info'   => $gameData['info'] ?? null,
+                            'danger' => $gameData['danger'] ?? null,
+                        ];
+                    }
+                }
 
-                    $monster->series()->attach($series->id, [
-                        'image'  => $gameData['image'] ?? null,
-                        'info'   => $gameData['info'] ?? null,
-                        'danger' => $gameData['danger'] ?? null,
-                    ]);
+                // Gunakan fungsi sync() untuk memasukkan data ke tabel monster_series secara bersamaan
+                if (!empty($pivotData)) {
+                    $monster->series()->sync($pivotData);
                 }
             }
         }
-
-        $this->command->info("Seeding database berhasil diselesaikan!");
     }
 }
