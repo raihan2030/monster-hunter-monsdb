@@ -4,9 +4,9 @@
     'currentTypeLabel',
 ])
 
-<div x-data="{ open: false }" class="relative w-full sm:w-auto shrink-0" @click.outside="open = false">
+<div x-data="{ open: false }" class="relative flex-1 md:flex-none sm:w-auto shrink-0 text-sm sm:text-base" @click.outside="open = false">
     <div @click="open = !open"
-        class="flex items-center justify-between gap-3 h-10 py-2 px-7 border rounded-2xl hover:border-blue-500 transition cursor-pointer w-47 whitespace-nowrap
+        class="flex items-center justify-between gap-3 h-10 py-2 px-3.5 sm:px-7 border rounded-2xl hover:border-blue-500 transition cursor-pointer md:w-45 flex-1 whitespace-nowrap
                             {{ $isTypeActive ? 'bg-blue-600 text-white border-blue-600' : 'text-gray-300 border-gray-500' }}">
         <span class="font-semibold whitespace-nowrap">{{ $currentTypeLabel }}</span>
 

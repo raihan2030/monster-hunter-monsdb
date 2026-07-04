@@ -22,6 +22,6 @@
         
         <input type="search" id="search" name="search" value="{{ request('search') }}"
             placeholder="{{ $placeholder }}"
-            class="h-12 block p-4 pl-10 w-3xl text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 hover:border-blue-600 focus:outline-1 focus:outline-blue-600 max-w-xs" />
+            class="h-12 block p-4 pl-10 w-full md:w-70 xl:w-90 text-md text-gray-300 bg-gray-700 rounded-lg border border-gray-300 hover:border-blue-600 focus:outline-1 focus:outline-blue-600" />
     </div>
 </form>
