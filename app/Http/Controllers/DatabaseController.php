@@ -24,25 +24,20 @@ class DatabaseController extends Controller
             ->get();
     }
 
-    public function index()
-    {
-        return view('database', [
-            'mainSeriesNav' => $this->mainSeriesNav,
-            'spinOffNav' => $this->spinOffNav
-        ]);
-    }
-
     public function show(Series $series, Request $request)
     {
         $monsters = $series->monsters()
             ->filter(request(['search', 'size', 'type']))->orderBy('asc')->paginate(15)->withQueryString();
+
+        $title = 'Monster Database';
 
         return view('database', [
             'series' => $series,
             'monsters' => $monsters,
             'types' => Type::orderBy('name')->get(),
             'mainSeriesNav' => $this->mainSeriesNav,
-            'spinOffNav' => $this->spinOffNav
+            'spinOffNav' => $this->spinOffNav,
+            'title' => $title
         ]);
     }
 }

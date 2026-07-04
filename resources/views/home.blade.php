@@ -28,11 +28,14 @@
                         alt="Your Company" class="h-8 w-auto" />
                 </div>
                 <div class="hidden sm:ml-6 sm:block">
+                    @php
+                        $firstSeries = $mainSeriesGrid[0]
+                    @endphp
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                         <a href="{{ route('home') }}" aria-current="page"
                             class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">Home</a>
-                        <a href="{{ route('database') }}"
+                        <a href="{{ route('database.show', ['series' => $firstSeries]) }}"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                         <a href="#"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
@@ -51,7 +54,7 @@
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                 <a href="{{ route('home') }}" aria-current="page"
                     class="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">Home</a>
-                <a href="{{ route('database') }}"
+                <a href="{{ route('database.show', ['series' => 'monster-hunter-freedom-unite']) }}"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                 <a href="#"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About

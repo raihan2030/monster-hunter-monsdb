@@ -7,7 +7,6 @@ use App\Models\Series;
 use App\Models\Type;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
-use Illuminate\Support\Str;
 
 class MonsterSeeder extends Seeder
 {
