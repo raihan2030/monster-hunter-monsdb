@@ -21,19 +21,16 @@ class MonsterSeeder extends Seeder
         $data = json_decode($jsonContent, true);
         $monsters = $data['monsters'];
 
-        // CACHE: Ambil semua ID Type dan Series ke dalam Array
-        // Formatnya akan menjadi ['Flying Wyvern' => 1, 'Bird Wyvern' => 2, ...]
         $typesMap = Type::pluck('id', 'name');
         $seriesMap = Series::pluck('id', 'name');
 
         foreach ($monsters as $monsterData) {
 
-            // 1. Simpan data monster (Ubah 'type' menjadi 'type_id')
             $monster = Monster::create([
                 'mongo_id'   => $monsterData['_id']['$oid'] ?? null,
                 'slug'       => Str::slug($monsterData['name']),
                 'name'       => $monsterData['name'],
-                'type_id'    => $typesMap[$monsterData['type']] ?? null, // Ambil ID dari mapping
+                'type_id'    => $typesMap[$monsterData['type']] ?? null,
                 'isLarge'    => $monsterData['isLarge'] ?? false,
                 'subSpecies' => $monsterData['subSpecies'] ?? [],
                 'elements'   => $monsterData['elements'] ?? [],
@@ -41,14 +38,12 @@ class MonsterSeeder extends Seeder
                 'weakness'   => $monsterData['weakness'] ?? [],
             ]);
 
-            // 2. Relasikan dengan tabel Series menggunakan ID hasil mapping
             if (isset($monsterData['games'])) {
                 $pivotData = [];
 
                 foreach ($monsterData['games'] as $gameData) {
                     $gameName = $gameData['game'];
 
-                    // Pastikan Series ditemukan di mapping agar tidak error
                     if (isset($seriesMap[$gameName])) {
                         $seriesId = $seriesMap[$gameName];
 
@@ -61,7 +56,6 @@ class MonsterSeeder extends Seeder
                     }
                 }
 
-                // Gunakan fungsi sync() untuk memasukkan data ke tabel monster_series secara bersamaan
                 if (!empty($pivotData)) {
                     $monster->series()->sync($pivotData);
                 }
