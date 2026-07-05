@@ -66,11 +66,9 @@
         {{-- List Card Main Series --}}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
             @foreach ($mainSeriesGrid as $item)
-                <a href="{{ route('database.show', ['series' => $item->slug]) }}"
-                    class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
-                    <img src="{{ asset($item->image_path) }}" alt="{{ $item->name }}"
-                        class="w-full h-full object-cover object-center rounded-xl">
-                </a>
+                <x-series-card 
+                    :item="$item"
+                />
             @endforeach
         </div>
     </div>
@@ -86,11 +84,9 @@
         {{-- List Card Main Series --}}
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
             @foreach ($spinOffGrid as $item)
-                <a href="{{ route('database.show', ['series' => $item->slug]) }}"
-                    class="bg-gray-800 border border-gray-700 hover:border-blue-500 text-white h-48 rounded-2xl flex flex-col items-center justify-center font-bold p-2 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:z-10 relative">
-                    <img src="{{ asset($item->image_path) }}" alt="{{ $item->name }}"
-                        class="w-full h-full object-cover object-center rounded-xl">
-                </a>
+                <x-series-card 
+                    :item="$item"
+                />
             @endforeach
         </div>
     </div>
