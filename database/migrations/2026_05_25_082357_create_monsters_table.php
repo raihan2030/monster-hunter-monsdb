@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('mongo_id')->nullable();
             $table->foreignId('type_id')->nullable()->constrained('types')->onDelete('set null');
             
+            $table->string('slug')->unique();
             $table->string('name');
             $table->boolean('isLarge')->default(false);
             $table->json('subSpecies')->nullable();

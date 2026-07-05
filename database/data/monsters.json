@@ -71,13 +71,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Agnaktor_Icon.png",
+          "image": "monster_agnaktor.png",
           "info": "Also known as fire-pike wyverns, Agnaktor use their tough beaks and great strength to burrow through rock. However, their hardened-lava armor becomes soft when they burrow underground or are attacked with fire or explosives",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Agnaktor_Icon.png",
+          "image": "monster_agnaktor.png",
           "info": "Also known as fire-pike wyverns, Agnaktor use their tough beaks and great strength to burrow effortlessy through rock, and can even burrow into ceilings. Their hardened-lava armor becomes even harder when cooled forming an almost impenetrable armor.",
           "danger": "5"
         },
@@ -111,7 +111,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Ahtal-Ka_Icon.png",
+          "image": "monster_ahtal_ka.png",
           "info": "The golden empress of praying mantises resides in a huge, ruined castle. She flattens towns and fortresses, and uses the wreckage to build her lair ever larger. It's rumored that the Empress's Throne, as it is known, is strewn with golden cocoons and webbing, which contain stolen treasures.",
           "danger": "8"
         }
@@ -170,13 +170,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Akantor_Icon.png",
+          "image": "monster_akantor.png",
           "info": "A wyvern shrouded in mystery and known by many names -- \"the black god\" to some, \"the tyrant of fire\" to others, but usually called \"Akantor\" by the Guild. Its giant spines and tusks make for a fearsome sight in the volcanic areas it frequents.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Akantor_Icon.png",
+          "image": "monster_akantor.png",
           "info": "A wyvern shrouded in mystery and known by many names -- \"the black god\" to some, \"the tyrant of fire\" to others, but usually called \"Akantor\" by the Guild. Its giant spines and tusks make for a fearsome sight in the volcanic areas it frequents.",
           "danger": "7"
         }
@@ -239,13 +239,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Question_Mark_Icon.png",
+          "image": "monster_alatreon.png",
           "info": "Blazing black dragons, so named for resembling both lightning and darkness. They mercilessly tear apart whoever touches their sharp scales. Elementally unstable, their actions can affect the very weather. Living natural disasters.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_alatreon.png",
           "info": "Blazing black dragons, so named for resembling both lightning and darkness. They mercilessly tear apart whoever touches their sharp scales. Elementally unstable, their actions can affect the very weather. Living natural disasters.",
           "danger": "8"
         },
@@ -308,19 +308,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Altaroth_Icon.png",
+          "image": "monster_altaroth.png",
           "info": "Insects that wildly inhabit many areas. Noted for absorbing fruit, mushrooms, and honey, then carrying them back to the nest. Materials can thus be collected from their swollen abdomens, whose color is related to what is being carried.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Altaroth_Icon.png",
+          "image": "monster_altaroth.png",
           "info": "Insects that wildly inhabit many areas. Noted for absorbing fruit, mushrooms, and honey, then carrying them back to the nest. Materials can thus be collected from their swollen abdomens, whose color is related to what is being carried.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Altaroth_Icon.png",
+          "image": "monster_altaroth.png",
           "info": "Insects that widely inhabit many areas. They absorb fruit, mushrooms, and honey, and then carry them back to their nest. Materials can thus be collected from their swollen abdomens, whose color is related to what they're carrying.",
           "danger": "1"
         },
@@ -331,7 +331,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Altaroth_Icon.png",
+          "image": "monster_altaroth.png",
           "info": "Neopterons found in many habitats. They forage for fruit, mushrooms, and honey to take back to their nests"
         },
         {
@@ -361,7 +361,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Amatsu_Icon.png",
+          "image": "monster_amatsu.png",
           "info": "A legendary elder dragon spotted on Sacred Pinnacle. An avatar of storms in the folklore of Yukumo Village, Amatsu's appearance is accompanied by furious cyclones and horrific storms. Its fearsome power is said to outscale that of natural disasters.",
           "danger": "8"
         },
@@ -453,13 +453,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Anteka_Icon.png",
+          "image": "monster_anteka.png",
           "info": "Herbivores that live in cold climates. Generally docile, though they have been known to attack when threatened. Their high-quality pelts have many uses, and their antlers are highly prized by the guild. Simply stun the creatures to easily harvest one.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Anteka_Icon.png",
+          "image": "monster_anteka.png",
           "info": "Herbivores that live in cold climates. Generally docile, though they have been known to attack when threatened. Their high-quality pelts have many uses, and their antlers are highly prized by the guild. Simply stun the creatures to easily harvest one.",
           "danger": "1"
         },
@@ -489,13 +489,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Apceros_Icon.png",
+          "image": "monster_apceros.png",
           "info": "Desert-dwelling Herbivores covered in tough plating. Highly territorial and known to tirelessly chase any who enter their habitat, they are especially hostile toward hunters, who have made a practice of stealing eggs from their nests.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Apceros_Icon.png",
+          "image": "monster_apceros.png",
           "info": "Desert-dwelling Herbivores covered in tough plating. Highly territorial and known to tirelessly chase any who enter their habitat, they are especially hostile toward hunters, who have made a practice of stealing eggs from their nests.",
           "danger": "2"
         },
@@ -506,7 +506,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Apceros_Icon.png",
+          "image": "monster_apceros.png",
           "info": "Herbivores clad in sturdy, armor-like plates. Approach with caution to avoid a fierce and persistent chase."
         },
         {
@@ -689,19 +689,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Aptonoth_Icon.png",
+          "image": "monster_aptonoth.png",
           "info": "Relatively docile herbivores with characteristic crest plates. They form herds and raise young communally, and have been used as pack animals for generations; their meat is tasty and nutritious. Very cautious around large monsters.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Aptonoth_Icon.png",
+          "image": "monster_aptonoth.png",
           "info": "Relatively docile herbivores with characteristic crest plates. They form herds and raise young communally, and have been used as pack animals for generations. Their meat is tasty and nutritious, and they're very cautious around large monsters.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Aptonoth_Icon.png",
+          "image": "monster_aptonoth.png",
           "info": "Relatively docile herbivores with characteristic crest plates. They form herds and raise young communally, and have been used as pack animals for generations. Their meat is tasty and nutritious, and they're very cautious around large monsters.",
           "danger": "1"
         },
@@ -712,7 +712,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Aptonoth_Icon.png",
+          "image": "monster_aptonoth.png",
           "info": "Placid, crested herbivorous monsters. They form herds and raise their young as a community."
         },
         {
@@ -767,13 +767,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Arzuros_Icon.png",
+          "image": "monster_arzuros.png",
           "info": "Forest-and mountain-dwelling beasts found in humid regions. Though known more for fishing and standing upright to collect honey, their thick claws and heavy forearm plating allow them to deliver powerful blows to any aggressor.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Arzuros_Icon.png",
+          "image": "monster_arzuros.png",
           "info": "Beasts known to dwell in humid forest and mountain regions. Though known more for fishing and standing upright to collect honey, their thick claws and heavy forearm plating allow them to deliver powerful blows to any aggressor.",
           "danger": "3"
         },
@@ -816,13 +816,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Ash_Kecha_Wacha_Icon.png",
+          "image": "monster_ash_kecha_wacha.png",
           "info": "As with standard Kecha Wacha, these arboreal fanged beasts shield their face with their tough ears when provoked. What makes them different, however, is their ability to spit fireballs, and, of course, their trademark pale fur.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Ash_Kecha_Wacha_Icon.png",
+          "image": "monster_ash_kecha_wacha.png",
           "info": "This subspecies has pale, multicolored fur. They make sport of their prey with the cunning of their attacks."
         },
         {
@@ -877,7 +877,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Astalos_Icon.png",
+          "image": "monster_astalos.png",
           "info": "Known as the \"Thunder Wyvern,\" Astalos can charge itself with electricity from the furious movements of its wings, tail and crest. In its charged state, the membrane in its wings take on a beautiful glow that only barely offsets the terrible nature of this monster.",
           "danger": "5"
         },
@@ -946,13 +946,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Azure_Rathalos_Icon.png",
+          "image": "monster_azure_rathalos.png",
           "info": "An azure-colored subspecies of Rathalos. More mobile than their standard cousin, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Azure_Rathalos_Icon.png",
+          "image": "monster_azure_rathalos.png",
           "info": "An azure-colored subspecies of Rathalos. More mobile than their standard cousin, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape.",
           "danger": "5"
         },
@@ -963,7 +963,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Azure_Rathalos_Icon.png",
+          "image": "monster_azure_rathalos.png",
           "info": "A Rathalos subspecies. More mobile than its cousin, it attacks with a matchless speed and ferocity."
         },
         {
@@ -989,7 +989,7 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Baggi_Icon.png",
+          "image": "MHST2-Baggi_Icon.png",
           "info": "Highly intelligent, carnivorous Bird Wyverns that hunt in packs. Noted for their blue scales and sharp glare. Baggi are feared for their ability to release a tranquillising fluid; it can knock out even humans for several seconds.",
           "danger": "2"
         },
@@ -1104,13 +1104,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Barioth_Icon.png",
+          "image": "monster_barioth.png",
           "info": "Wyverns that rule the eternally frozen Tundra. Barioth use their huge tusks and spiked scales to move freely atop the slippery ice; this ability makes them very difficult to keep up with.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Barioth_Icon.png",
+          "image": "monster_barioth.png",
           "info": "Wyverns that rule the eternally frozen Tundra. Barioth use their huge tusks and spiked scales to move freely atop the slippery ice; this ability makes them very difficult to keep up with.",
           "danger": "5"
         },
@@ -1127,7 +1127,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHGU-Barioth_Icon.png",
+          "image": "monster_barioth.png",
           "info": "Flying Wyverns that rule the frozen wastes. Spikily scaled wings and tail allow them to run effortlessly across ice."
         },
         {
@@ -1180,13 +1180,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Barroth_Icon.png",
+          "image": "monster_barroth.png",
           "info": "Barroth usually remain beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Barroth_Icon.png",
+          "image": "monster_barroth.png",
           "info": "Barroth usually remain beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
           "danger": "4"
         },
@@ -1203,7 +1203,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHGU-Barroth_Icon.png",
+          "image": "monster_barroth.png",
           "info": "Barroth bury themselves in mud, but will not hesitate to attack those who disturb them in their bogs."
         },
         {
@@ -1244,13 +1244,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Basarios_Icon.png",
+          "image": "monster_basarios.png",
           "info": "These juvenile Gravios are famous for their rock-hard carapaces. They often borrow underground, mimicking rocks and savaging oblivious miners. They are known to emit poison gases and are especially weak against bombs.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Basarios_Icon.png",
+          "image": "monster_basarios.png",
           "info": "These juvenile Gravios are famous for their rock-hard carapaces. They often borrow underground, mimicking rocks and savaging oblivious miners. They are known to emit poison gases and are especially weak against bombs.",
           "danger": "4"
         },
@@ -1262,7 +1262,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Basarios_Icon.png",
+          "image": "monster_basarios.png",
           "info": "Juvenile form of a Gravios. Its most distinctive feature is the rock-hard carapace on its back."
         },
         {
@@ -1470,13 +1470,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Black_Diablos_Icon.png",
+          "image": "MHFU-Black_Diablos_Icon.png",
           "info": "These black-shelled Diablos are treated as a subspecies, but are actually just normal female Diablos in heat. The color change is a warning to other creatures, as they tend to become extremely aggressive during mating season.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Black_Diablos_Icon.png",
+          "image": "MHFU-Black_Diablos_Icon.png",
           "info": "These black-shelled Diablos are treated as a subspecies, but are actually just female Diablos in heat. The color change is a signal to other creatures, as they tend to become extremely aggressive during mating season.",
           "danger": "5"
         },
@@ -1487,7 +1487,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Black_Diablos_Icon.png",
+          "image": "MHST2-Black_Diablos_Icon.png",
           "info": "A formidable subspecies of Diablos. Females darken in the mating season so as to warn off other creatures."
         },
         {
@@ -1521,13 +1521,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Black_Gravios_Icon.png",
+          "image": "MHFU-Black_Gravios_Icon.png",
           "info": "A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Black_Gravios_Icon.png",
+          "image": "MHST2-Black_Gravios_Icon.png",
           "info": "This subspecies has a tough, black carapace. It is capable of discharging powerful blasts of heat."
         },
         {
@@ -1584,7 +1584,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Blango_Icon.png",
+          "image": "monster_blango.png",
           "info": "A Pelagus covered in entirely in white fur. Known to move in packs and led by a Blangonga. The Blangonga exerts tight control over the group, and any call to gather will be met immediately by the rank and file Blangos.",
           "danger": "2"
         },
@@ -1622,7 +1622,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Blangonga_Icon.png",
+          "image": "monster_blangonga.png",
           "info": "Leader of a Blango pack, it is twice as large and recognized by its giant fangs and whiskers. It sends its pack to attack any trespassers. Its jumping power allows it great mobility in its home range of the Arctic Ridge.",
           "danger": "4"
         },
@@ -1672,7 +1672,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Bloodbath_Diablos_Icon.png",
+          "image": "monster_bloodbath_diablos.png",
           "info": "A desert legend tells of the brave armies sent out against the unimaginable cruelties that had besieged their cities and nations. None of them returned alive, and only the sands remained as witnesses of their efforts. This story has no hero or happy ending, only the wyvern known as \"Bloodbath\". Requires special permission to hunt.",
           "danger": "6"
         },
@@ -1707,13 +1707,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Blue_Yian_Kut-Ku_Icon.png",
+          "image": "MHFU-Blue_Yian_Kut-Ku_Icon.png",
           "info": "A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Blue_Yian_Kut-Ku_Icon.png",
+          "image": "MHST2-Blue_Yian_Kut-Ku_Icon.png",
           "info": "A Yian Kut-Ku subspecies. Their blue coloration and physical prowess set them apart from their pink kin."
         },
         {
@@ -1728,7 +1728,7 @@
         "$oid": "5e1586e38a80af35ce52d782"
       },
       "name": "Bnahabra",
-      "type": "Leviathan",
+      "type": "Neopteron",
       "isLarge": false,
       "ailments": [
         "Paralysis",
@@ -1740,19 +1740,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Bnahabra_Icon.png",
+          "image": "monster_bnahabra.png",
           "info": "Flying insects that inhabit most environments. They attack invaders with a paralyzing venom, and lay eggs in carrion together with a bodily fluid that hastens decomposition. As their bodies are easily destroyed, poison is ideal for harvesting their parts.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Bnahabra_Icon.png",
+          "image": "monster_bnahabra.png",
           "info": "Pervasive flying insects that attack invaders with paralyzing venom and lay eggs in carrion along with a fluid that hastens decomposition. It is best to kill them with poison so that their parts are left ripe for the carving.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Bnahabra_Icon.png",
+          "image": "monster_bnahabra.png",
           "info": "Pervasive flying insects that attack invaders with paralyzing venom and lay eggs in carrion along with a fluid that hastens decomposition. It is best to kill them with poison so that their parts are left ripe for the carving.",
           "danger": "2"
         },
@@ -1763,7 +1763,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Bnahabra_Icon.png",
+          "image": "monster_bnahabra.png",
           "info": "Versatile Neopterons whose coloration and abilities differ according to habitat. This one is a hardy green/ a sturdy brown/ a lively red/ a deep blue."
         },
         {
@@ -1831,7 +1831,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Boltreaver_Astalos_Icon.png",
+          "image": "monster_boltreaver_astalos.png",
           "info": "Whoever gets caught in the lightning shot by the unique Boltreaver Astalos will vanish without a trace, leaving only their shadow behind. The electrical properties of its shell allow it to glide through the air and create electromagnetic charges that can be used in chasing down prey. Requires special permission to hunt.",
           "danger": "6"
         },
@@ -1882,19 +1882,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Brachydios_Icon.png",
+          "image": "monster_brachydios.png",
           "info": "Brute wyverns coated with an explosive green substance. The material is thought to be a unique myxomycete--or slime mold--that is primed to explode by the Brachydios's own saliva. Note that these crafty creatures can also deliver powerful foreleg strikes.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Brachydios_Icon.png",
+          "image": "monster_brachydios.png",
           "info": "Brute wyverns coated with an explosive green substance, a material that is thought to be a unique slime mold that is primed to explode by an element in the monster's saliva. They are also capable of powerful foreleg strikes.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Brachydios_Icon.png",
+          "image": "monster_brachydios.png",
           "info": "Brute wyverns coated with an explosive green substance, a material that is thought to be a unique slime mold that is primed to explode by an element in the monster's saliva. They are also capable of powerful foreleg strikes.",
           "danger": "5"
         },
@@ -1905,7 +1905,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Brachydios_Icon.png",
+          "image": "monster_brachydios.png",
           "info": "Brute Wyvern coated in a volatile substance. Its saliva can be used to ignite this coat, with explosive results."
         },
         {
@@ -1928,13 +1928,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Brute_Tigrex_Icon.png",
+          "image": "MHST2-Brute_Tigrex_Icon.png",
           "info": "A subspecies of Tigrex, these beasts are as brutal as they are ravenous. They prefer volcanic regions, but can be found in a range of areas. Their howls are even more piercing than standard Tigrex roars and send shockwaves far and wide.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHWI-Brute_Tigrex_Icon.png",
+          "image": "MHST2-Brute_Tigrex_Icon.png",
           "info": "Blackish brown scales and a stronger roar set this Tigrex subspecies apart. Extremely aggressive, even by Tigrex standards.",
           "danger": "5"
         },
@@ -1945,7 +1945,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Brute_Tigrex_Icon.png",
+          "image": "MHST2-Brute_Tigrex_Icon.png",
           "info": "A black Tigrex subspecies. The force and range of its howl is even more fearsome than that of its cousins."
         },
         {
@@ -1973,7 +1973,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Bulldrome_Icon.png",
+          "image": "monster_bulldrome.png",
           "info": "Bulldrome are the imposing leaders of Bullfango packs, notable for their impressive tusks and large bodies. More aggressive than a Bullfango, it is known to ram into its foes, and is extremely proficient at tracking them.",
           "danger": "3"
         },
@@ -2023,13 +2023,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Bullfango_Icon.png",
+          "image": "monster_bullfango.png",
           "info": "Foul-tempered wild boars that charge toward hunters the moment they spot them. Fertile and wide-ranging, they have been known to form large herds. Their meat has an unique flavor beloved by many.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Bullfango_Icon.png",
+          "image": "monster_bullfango.png",
           "info": "Foul-tempered wild boars that charge toward hunters the moment they spot them. Fertile and wide-ranging, they have been known to form large herds. Their meat has an unique flavor beloved by many.",
           "danger": "2"
         },
@@ -2103,7 +2103,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Ceanataur_Icon.png",
+          "image": "monster_ceanataur.png",
           "info": "An adolescent Carapaceon with an organic shell firmly placed on its back. Once grown, this shell will be replaced by a giant monster's skull. Mainly living in volcanic zones, it is very aggressive, and not to be underestimated.",
           "danger": "2"
         },
@@ -2140,19 +2140,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Cephadrome_Icon.png",
+          "image": "monster_cephadrome.png",
           "info": "The leaders of Cephalos herds, these individuals are set apart by their larger size and hard, black scales. Like their smaller counterparts, they have excellent hearing, making them sensitive to loud noises. Their fins also secrete a paralytic agent.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Cephadrome_Icon.png",
+          "image": "monster_cephadrome.png",
           "info": "The leaders of Cephalos herds, these individuals are set apart by their larger size and hard, black scales. Like their smaller counterparts, they have excellent hearing, making them sensitive to loud noises. Their fins also secrete a paralytic agent.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Cephadrome_Icon.png",
+          "image": "monster_cephadrome.png",
           "info": "Alpha monster that lead Cephalos. Hardened black scales set them apart from the smaller Cephalos."
         },
         {
@@ -2167,7 +2167,7 @@
         "$oid": "5e155e638a80af35ce52d736"
       },
       "name": "Cephalos",
-      "type": "Leviathan",
+      "type": "Piscine Wyvern",
       "isLarge": false,
       "elements": [
         "Water"
@@ -2188,19 +2188,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Cephalos_Icon.png",
+          "image": "monster_cephalos.png",
           "info": "The coloration of these piscine wyverns is well-suited to the deserts they inhabit. Excellent burrowers, they swim through the sand in packs, rarely surfacing. Their ears are highly developed; any impact caused by striking the ground forces them out of hiding.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Cephalos_Icon.png",
+          "image": "monster_cephalos.png",
           "info": "The coloration of these piscine wyverns is well-suited to the deserts they inhabit. Excellent burrowers, they swim through the sand in packs, rarely surfacing. Their ears are highly developed; any impact caused by striking the ground forces them out of hiding.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Cephalos_Icon.png",
+          "image": "monster_cephalos.png",
           "info": "Piscine Wyverns with acute hearing. They swim freely in the desert sands that their scales so resemble."
         },
         {
@@ -2254,13 +2254,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Chameleos_Icon.png",
+          "image": "monster_chameleos.png",
           "info": "Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon -- hence its name. Witnesses report attacks can come out of nowhere, but that Smoke Bombs keep the beast visible.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Chameleos_Icon.png",
+          "image": "monster_chameleos.png",
           "info": "Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon -- hence its name. Witnesses report that it can spew a fog-like breath, which seems to come out of nowhere.",
           "danger": "7"
         },
@@ -2289,7 +2289,7 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Chaotic_Gore_Magala_Icon.png"
+          "image": "monster_chaotic_gore_magala.png"
         },
         {
           "game": "Monster Hunter Rise",
@@ -2354,13 +2354,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Conga_Icon.png",
+          "image": "monster_conga.png",
           "info": "Ape-like fanged beasts with pink fur. Conga prefer to live in smalls groups as oppposed to large packs and primarily inhabit warm, humid environments.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Conga_Icon.png",
+          "image": "monster_conga.png",
           "info": "Ape-like fanged beasts with pink fur. Conga prefer to live in smalls groups as oppposed to large packs and primarily inhabit warm, humid environments.",
           "danger": "2"
         },
@@ -2413,13 +2413,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Congalala_Icon.png",
+          "image": "monster_congalala.png",
           "info": "A large fanged beast with pink fur, often found in warm, damp regions. Fond of mushrooms, Congalalas possess either poisonous or flaming breath, depending on the food available in their local habitat.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Congalala_Icon.png",
+          "image": "monster_congalala.png",
           "info": "A large fanged beast with pink fur, often found in warm, damp regions. Fond of mushrooms, Congalalas possess either poisonous or flaming breath, depending on the food available in their local habitat.",
           "danger": "2"
         },
@@ -2430,7 +2430,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Congalala_Icon.png",
+          "image": "monster_congalala.png",
           "info": "Pink-furred Fanged Beasts. They let rip with almighty farts, the stench of which overwhelms opponents."
         },
         {
@@ -2529,12 +2529,12 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_crimson_fatalis.png",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_crimson_fatalis.png",
           "danger": "6"
         }
       ]
@@ -2560,13 +2560,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Crimson_Qurupeco_Icon.png",
+          "image": "MHST2-Crimson_Qurupeco_Icon.png",
           "info": "A subspecies of Qurupeco with vivid crimson plumage and the same aptitude for mimicry and dance. Flints in their wings allow them to generate electricity, which can be discharged as either shocking jolts or intense flashes of light.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHST-Crimson_Qurupeco_Icon.png",
+          "image": "MHST2-Crimson_Qurupeco_Icon.png",
           "info": "Subspecies with vibrant red plumage. Flints in its wings allow it to release fearsome electrical attacks."
         },
         {
@@ -2626,7 +2626,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Crystalbeard_Uragaan_Icon.png",
+          "image": "monster_crystalbeard_uragaan.png",
           "info": "A living treasure trove of precious jewels, famous in the lore of miners and said to bring good fortune should you manage to even lay your eyes upon it. Some have tried to slay the \"Crystalbeard\" for its treasure, only to be crushed by its glittering fury. Requires special permission to hunt.",
           "danger": "6"
         }
@@ -2680,13 +2680,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Daimyo_Hermitaur_Icon.png",
+          "image": "monster_daimyo_hermitaur.png",
           "info": "This large Carapaceon attacks prey primarily with its large pincers and bubble breath. If the massive monster skull it wears on its back is destroyed, it will flee in search of a new husk to call home.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Daimyo_Hermitaur_Icon.png",
+          "image": "monster_daimyo_hermitaur.png",
           "info": "This large Carapaceon wears a massive monster skull on its back, and uses its large pincers and bubble breath to attack prey. When in danger, it uses its hardened pincers to form a tough shield that repels attacks.",
           "danger": "3"
         },
@@ -2698,7 +2698,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Daimyo_Hermitaur_Icon.png",
+          "image": "monster_daimyo_hermitaur.png",
           "info": "These armored Carapaceons use their hardened pincers like shields to fend off the attacks of their enemies."
         },
         {
@@ -2753,7 +2753,7 @@
         "$oid": "5e158d2e8a80af35ce52d78e"
       },
       "name": "Deadeye Yian Garuga",
-      "type": "Leviathan",
+      "type": "Bird Wyvern",
       "isLarge": true,
       "elements": [
         "Fire"
@@ -2770,7 +2770,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Deadeye_Yian_Garuga_Icon.png",
+          "image": "monster_deadeye_yian_garuga.png",
           "info": "The \"Deadeye\" is a battle-scarred veteran of countless duels to the death. Its one-eyed gaze burns with the fervor of a thousand victorious fights. A famous hunter once said: \"That's the only feller with a better HR than me!\" Requires special permission to hunt.",
           "danger": "6"
         }
@@ -2895,19 +2895,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Deviljho_Icon.png",
+          "image": "monster_deviljho.png",
           "info": "The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. Needing to feed constantly due to high body heat, they can hunt nearby animals to extinction.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Deviljho_Icon.png",
+          "image": "monster_deviljho.png",
           "info": "The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. Needing to feed constantly due to high body heat, they can hunt nearby animals to extinction.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Deviljho_Icon.png",
+          "image": "monster_deviljho.png",
           "info": "The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. Needing to feed constantly due to high body heat, they can hunt nearby animals to extinction.",
           "danger": "6"
         },
@@ -2918,7 +2918,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Deviljho_Icon.png",
+          "image": "monster_deviljho.png",
           "info": "Brute Wyverns that roam in search of food. Ferocious in the extreme, and relentless in pursuit of prey."
         },
         {
@@ -2951,19 +2951,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Diablos_Icon.png",
+          "image": "monster_diablos.png",
           "info": "Wyverns feared as desert tyrants. Extremely territorial, Diablos attack invaders with blind aggression. Highly sensitive to sound, perhaps because they frequently travel beneath the sand. Known to feed on cacti.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Diablos_Icon.png",
+          "image": "monster_diablos.png",
           "info": "A desert wyvern that takes its name from the giant horns that crown its head. Like the Monoblos, the Diablos charges its prey or strikes from underground, moving more quickly once it is angered. Their sensitive ears make them susceptible to Sonic Bombs.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Diablos_Icon.png",
+          "image": "monster_diablos.png",
           "info": "A desert wyvern that takes its name from the giant horns that crown its head. Like the Monoblos, the Diablos charges its prey or strikes from underground, moving more quickly once it is angered. Their sensitive ears make them susceptible to Sonic Bombs.",
           "danger": "5"
         },
@@ -2980,7 +2980,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Diablos_Icon.png",
+          "image": "monster_diablos.png",
           "info": "Feared as tyrants of the deserts, these Flying Wyverns attack any who stray into their territory."
         },
         {
@@ -3010,7 +3010,7 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Question_Mark_Icon.png",
+          "image": "monster_fatalis.png",
           "info": "Some legends consider this great dragon to be the devil fated to destroy the world, while others claim it is the giant who birthed creation. Is there any way for mere humans to quell its unending rage?",
           "danger": "6"
         }
@@ -3080,7 +3080,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Dreadking_Rathalos_Icon.png",
+          "image": "monster_dreadking_rathalos.png",
           "info": "Even among the rulers of the sky, the \"Dreadking\" is truly the king of kings. A giant, supported by wings as black as the scorched remains of its prey. Humans are usually unworthy of its attention, but it descends with fiery wrath upon intruders to its domain. Requires special permission to hunt.",
           "danger": "6"
         },
@@ -3113,7 +3113,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Dreadqueen_Rathian_Icon.png",
+          "image": "monster_dreadqueen_rathian.png",
           "info": "Every rose has its thorns. The \"Dreadqueen's\" thorns are barbs full of deadly venom, and they can scatter a purple cloud of suffocating death in any area she alights. She blooms proud and alone amidst her own desolation. Requires special permission to hunt.",
           "danger": "6"
         },
@@ -3142,7 +3142,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Drilltusk_Tetsucabra_Icon.png",
+          "image": "monster_drilltusk_tetsucabra.png",
           "info": "An exceptionally large Tetsucabra with tusks that can drill through earth, or even metal. If the Drilltusk weren't constantly shattering boulders on its enemies or trying to crush them with its weight, one could almost appreciate the masterful way it digs. Requires special permission to hunt.",
           "danger": "5"
         }
@@ -3168,13 +3168,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Duramboros_Icon.png",
+          "image": "monster_duramboros.png",
           "info": "Giant brute wyverns with hammer-like growths on their tails. They subsist on fallen or withered trees, often using their tails to knock said trees over. Researchers speculate that the lumps on their backs act as some sort of energy source.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Duramboros_Icon.png",
+          "image": "monster_duramboros.png",
           "info": "Giant brute wyverns with hammer-like growths on their tails. They subsist on fallen or withered trees, often using their tails to knock said trees over. Researchers speculate that the lumps on their backs act as some sort of energy source.",
           "danger": "5"
         },
@@ -3234,7 +3234,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Elderfrost_Gammoth_Icon.png",
+          "image": "monster_elderfrost_gammoth.png",
           "info": "A Gammoth so gargantuan, ancient and strong that it may be mistaken for the foot of a mountain. Its great age and mountain home have given it the nickname \"Elderfrost\". Very few people have ever seen it fight, but it sometimes causes wild blizzards that race down the mountain and ravage the plains. Requires special permission to hunt.",
           "danger": "6"
         },
@@ -3272,13 +3272,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Emerald_Congalala_Icon.png",
+          "image": "monster_emerald_congalala.png",
           "info": "A Congalala variant with green fur and a more prominent crest. Even more ravenous than ordinary Congalalas, they can store a greater amount of gas in their body, which means that they can produce a wider-reaching flatulence when threatened or provoked.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Emerald_Congalala_Icon.png",
+          "image": "monster_emerald_congalala.png",
           "info": "A green-furred Congalala. Able to store even more prodigious quantities of gas than its pink brethren."
         },
         {
@@ -3373,13 +3373,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_fatalis.png",
           "info": "Stories of this legendary dragon date back to antiquity. Many skilled hunters have sought to challenge it, but none have ever returned. A monster shrouded in mystery...",
           "danger": "8"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_fatalis.png",
           "info": "Stories of this legendary dragon date back to antiquity. Many skilled hunters have sought to challenge it, but none have ever returned. A monster shrouded in mystery...",
           "danger": "8"
         },
@@ -3390,7 +3390,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_fatalis.png",
           "info": "Legendary black dragon shrouded in mystery. Many sought to challenge it, few lived to tell the tale..."
         },
         {
@@ -3421,19 +3421,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Felyne_Icon.png",
+          "image": "monster_felyne.png",
           "info": "Bipedal creatures resembling cats, known for their light hair. Though usually docile, they will attack viciously if provoked. Naturally curious, some try to enter human society. Fond of Felvine, they will follow its scent anywhere.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Felyne_Icon.png",
+          "image": "monster_felyne.png",
           "info": "Bipedal creatures resembling cats, known for their light hair. Though usually docile, they will attack viciously if provoked. Naturally curious, some try to enter human society. They are fond of Felvine and will follow its scent anywhere.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Felyne_Icon.png",
+          "image": "monster_felyne.png",
           "info": "Bipedal creatures resembling cats, known for their light hair. Though usually docile, they will attack viciously if provoked. Naturally curious, some try to enter human society. They are fond of Felvine and will follow its scent anywhere.",
           "danger": "1"
         },
@@ -3444,7 +3444,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Felyne_Icon.png",
+          "image": "monster_felyne.png",
           "info": "Trapped in barrels and unable to free themselves, these Felynes await rescue."
         },
         {
@@ -3583,11 +3583,11 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Furious_Rajang_Icon.png"
+          "image": "monster_furious_rajang.png"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Furious_Rajang_Icon.png"
+          "image": "monster_furious_rajang.png"
         },
         {
           "game": "Monster Hunter World",
@@ -3710,7 +3710,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Gammoth_Icon.png",
+          "image": "monster_gammoth.png",
           "info": "Found in the most frigid regions of the world, Gammoths are behemoths with massive tusks. Though they are herbivores, when provoked they will leverage their enormous weight and trunks to crush a threat. They can also shatter the snow covering their legs to damage nearby foes.",
           "danger": "5"
         },
@@ -3766,19 +3766,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Gargwa_Icon.png",
+          "image": "monster_gargwa.png",
           "info": "Flightless bird wyverns with vestigial wings. They can often be found roaming wild in the Misty Peaks, but are also raised as livestock in Yukumo Village. Quite timid, Gargwa have been known to lay eggs when startled.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gargwa_Icon.png",
+          "image": "monster_gargwa.png",
           "info": "Fightless, plain-dwelling bird wyverns with vestigial wings. Quite timid, Gargwa have been known to lay eggs when other creatures surprise them from behind. They are raised as livestock in numerous villages.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gargwa_Icon.png",
+          "image": "monster_gargwa.png",
           "info": "Flightless bird wyverns with vestigial wings, known to inhabit the Jurassic Frontier. Quite timid, Gargwa have been known to lay eggs when other creatures surprise them from behind. They are raised as livestock in numerous villages.",
           "danger": "1"
         },
@@ -3789,7 +3789,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Gargwa_Icon.png",
+          "image": "monster_gargwa.png",
           "info": "Placid Bird Wyverns raised as livestock. Their vestigial wings make them flightless."
         },
         {
@@ -3854,19 +3854,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gendrome_Icon.png",
+          "image": "monster_gendrome.png",
           "info": "Alpha monsters that lead Genprey packs. Larger than their brothers and with a more prominent crest, Gendrome use the venom in their highly evolved fangs and claws to paralyze their prey.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gendrome_Icon.png",
+          "image": "monster_gendrome.png",
           "info": "Alpha monsters that lead Genprey packs. Larger than their brothers and with a more prominent crest, Gendrome use the venom in their highly evolved fangs and claws to paralyze their prey.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Gendrome_Icon.png",
+          "image": "monster_gendrome.png",
           "info": "Alpha monsters that lead Genprey. Paralyzing venom tips their highly-developed fangs and claws."
         },
         {
@@ -3899,19 +3899,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Genprey_Icon.png",
+          "image": "monster_genprey.png",
           "info": "Bird wyverns with a distinctive green-and-orange striped hide, Genprey live in packs in the Sunken Hollow and Primal Forest. Their claws and large fangs contain a paralyzing neurotoxin that they use to stun prey.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Genprey_Icon.png",
+          "image": "monster_genprey.png",
           "info": "Bird wyverns with a distinctive green-and-orange striped hide, Genprey live in packs in the Dunes and Primal Forest. Their claws and large fangs contain a paralyzing neurotoxin that they use to stun prey.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Genprey_Icon.png",
+          "image": "monster_genprey.png",
           "info": "Green-and-orange Bird Wyverns that hunt in packs. They make good use of their paralyzing venom."
         },
         {
@@ -3946,7 +3946,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Giadrome_Icon.png",
+          "image": "monster_giadrome.png",
           "info": "Alpha monsters that lead Giaprey packs. They sport splendid crests and are much bigger than Giaprey they lead. They spit ice with deadly accuracy, and woe betide the Hunter who gets caught in it.",
           "danger": "3"
         }
@@ -3977,7 +3977,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Giaprey_Icon.png",
+          "image": "monster_giaprey.png",
           "info": "A species of small bird-like carnivores known to inhabit the Arctic Ridge. Their white skin is beautiful, but their temperament is not. They are known to spit ice at hunters, and attack in deadly packs.",
           "danger": "2"
         }
@@ -4112,7 +4112,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Glavenus_Icon.png",
+          "image": "monster_glavenus.png",
           "info": "A brute wyvern that can bring its mighty tail down on foes like a massive sword, decimating them in an explosion of flames created from the volatile components found in its scales. If its tail dulls from accumulated soot, a Glavenus will use its fangs to resharpen it.",
           "danger": "5"
         },
@@ -4123,7 +4123,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHGen-Glavenus_Icon.png"
+          "image": "monster_glavenus.png"
         },
         {
           "game": "Monster Hunter Stories 2",
@@ -4180,7 +4180,7 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_fatalis.png",
           "info": "Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight.",
           "danger": "6"
         },
@@ -4217,19 +4217,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Gold_Rathian_Icon.png",
+          "image": "monster_gold_rathian.png",
           "info": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gold_Rathian_Icon.png",
+          "image": "monster_gold_rathian.png",
           "info": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gold_Rathian_Icon.png",
+          "image": "monster_gold_rathian.png",
           "info": "A rare variant of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behavior or physiology--including the source of their rich golden sheen.",
           "danger": "6"
         },
@@ -4246,7 +4246,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Gold_Rathian_Icon.png",
+          "image": "monster_gold_rathian.png",
           "info": "A rare Rathian subspecies. Its majestic golden sheen resembles the glow of the full moon."
         },
         {
@@ -4302,13 +4302,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gore_Magala_Icon.png",
+          "image": "monster_gore_magala.png",
           "info": "A curious monster that, when threatened, scatters pollen-like scales that heighten its own senses while causing detrimental effects to any other creatures that inhale them. As elusive as they are mysterious.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gore_Magala_Icon.png",
+          "image": "monster_gore_magala.png",
           "info": "A bizarre wyvern that, when threatened, scatters pollen-like scales that heighten its own senses while causing detrimental effects to any other creatures that inhale them. As elusive as it is mysterious.",
           "danger": "5"
         },
@@ -4394,13 +4394,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gravios_Icon.png",
+          "image": "monster_gravios.png",
           "info": "Large wyverns found in volcanic areas. They possess a fiery breath attack and the ability to emit sleeping gas. Their bony carapaces are extremely tough, but expose a surprisingly brittle interior once destroyed.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gravios_Icon.png",
+          "image": "monster_gravios.png",
           "info": "Large wyverns found in volcanic areas. They possess a fiery breath attack and the ability to emit sleeping gas. Their bony carapaces are extremely tough, but expose a surprisingly brittle interior once destroyed.",
           "danger": "5"
         },
@@ -4411,7 +4411,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Gravios_Icon.png",
+          "image": "monster_gravios.png",
           "info": "Flying Wyverns that inhabit volcanic regions. Capable of attacking with fiery breath and sleeping gas."
         },
         {
@@ -4437,7 +4437,7 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Great_Baggi_Icon.png",
+          "image": "MHST2-Great_Baggi_Icon.png",
           "info": "Carnivorous bird wyverns like the Jaggi. Noted for their projecting cranial crests and bluish-white skin that's adapted to snow. Great Baggi craftily command other Baggi to surround their prey and stun them with a tranquilizing fluid.",
           "danger": "3"
         },
@@ -4540,13 +4540,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Great_Jaggi_Icon.png",
+          "image": "MHST2-Great_Jaggi_Icon.png",
           "info": "The commanding alpha male of Jaggi packs. Most males leave the group upon reaching maturity, returning to compete with others. The dominant male then becomes a Great Jaggi. Apparently, they can issue fairly complex orders via howling.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Great_Jaggi_Icon.png",
+          "image": "MHST2-Great_Jaggi_Icon.png",
           "info": "The commanding alpha male of Jaggi packs. Most males leave the group upon reaching maturity, returning to compete with others. The dominant male then becomes a Great Jaggi. Apparently, they can issue fairly complex orders via howling.",
           "danger": "3"
         },
@@ -4593,7 +4593,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Great_Maccao_Icon.png",
+          "image": "monster_great_maccao.png",
           "info": "Leader of the pack-hunting Maccao, the Great Maccao is easily spotted by its large size and feather-like yellow crest. It can balance on its tail and spring forward for a deadly strike, but when weakened, its lesser Maccao cousins are quick to turn tail and run.",
           "danger": "3"
         }
@@ -4623,13 +4623,13 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Great_Thunderbug_Icon.png",
+          "image": "monster_great_thunderbug.png",
           "info": "Thunderbugs can be used to make a variety of weapons and items, but these ones have grown to a monstrous size inside an elder dragon. They are imbued with formidable electric powers. They congregate at night and in caves where the sunlight doesn't reach.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHGU-Great_Thunderbug_Icon.png",
+          "image": "monster_great_thunderbug.png",
           "info": "Thunderbugs can be used to make a variety of weapons and items, but these ones have grown to a monstrous size inside an elder dragon. They are imbued with formidable electric powers. They congregate at night and in caves where the sunlight doesn't reach."
         },
         {
@@ -4725,7 +4725,7 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Green_Plesioth_Icon.png",
+          "image": "MHFU-Green_Plesioth_Icon.png",
           "info": "A subspecies of Plesioth with jade-green scales. Though primarily aquatic, the creature's movements are equally adept both in and out of water. When enraged, it has a habit of surfacing to rampage on land.",
           "danger": "5"
         },
@@ -4768,7 +4768,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Grimclaw_Tigrex_Icon.png",
+          "image": "monster_grimclaw_tigrex.png",
           "info": "Highly developed physical strength lets it trample anything in its way, and its raw power overwhelms the so-called technological strengths that humans have spent centuries cultivating. Even veteran hunters shudder at its name, \"Grimclaw.\" Requires special permission to hunt.",
           "danger": "6"
         },
@@ -4941,13 +4941,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Gypceros_Icon.png",
+          "image": "monster_gypceros.png",
           "info": "Wyverns that can generate disorienting flashes of light by striking their prominent crests. Their rubbery hide resists blunt impacts and makes Shock Traps less effective. Beware: The poisonous saliva they spit can flow down slopes.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Gypceros_Icon.png",
+          "image": "monster_gypceros.png",
           "info": "Wyverns that can generate disorienting flashes of light by striking their prominent crests. Their rubbery hide resists blunt impacts and makes Shock Traps less effective. Beware: The poisonous saliva they spit can flow down slopes.",
           "danger": "3"
         },
@@ -4958,7 +4958,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Gypceros_Icon.png",
+          "image": "monster_gypceros.png",
           "info": "Crested Bird Wyverns. They strike their crests to generate blinding flashes and dazzle their enemies."
         },
         {
@@ -5023,7 +5023,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Hellblade_Glavenus_Icon.png",
+          "image": "monster_hellblade_glavenus.png",
           "info": "A Glavenus whose intense heat is akin to an active volcano. It can blast apart stone with a single breath, and incinerate mountains with a single swipe of its red-hot tail. The \"Hellblade\" requires a special permission to hunt.",
           "danger": "6"
         },
@@ -5052,13 +5052,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Hermitaur_Icon.png",
+          "image": "monster_hermitaur.png",
           "info": "These small, hard-shelled Carapaceon creatures are common in the desert, where they frequently lie in wait under the sands, lashing out when prey happen past them. Their brains are prized as a delicacy.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Hermitaur_Icon.png",
+          "image": "monster_hermitaur.png",
           "info": "These small, hard-shelled Carapaceon creatures are common in the desert, where they frequently lie in wait under the sands, lashing out when prey happen past them. Their brains are prized as a delicacy.",
           "danger": "2"
         },
@@ -5069,7 +5069,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Hermitaur_Icon.png",
+          "image": "monster_hermitaur.png",
           "info": "Small hard-shelled Carapaceons. Their brains are regarded as a delicacy in some regions."
         },
         {
@@ -5123,7 +5123,7 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MHGen-Hornetaur_Icon.png",
+          "image": "monster_hornetaur.png",
           "info": "A Vespoid-like monster, but with a thicker shell. Easily damaged, there are rarely any usable materials left to harvest from them once killed. But if you could sap their Health gradually...",
           "danger": "1"
         },
@@ -5183,19 +5183,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Iodrome_Icon.png",
+          "image": "monster_iodrome.png",
           "info": "Alpha monsters that lead Ioprey. Larger than their brothers and with a more prominent crest, Iodrome spit a poison that slowly saps the life from their prey. They are found primarily in subtropical zones.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Iodrome_Icon.png",
+          "image": "monster_iodrome.png",
           "info": "Alpha monsters that lead Ioprey. Larger than their brothers and with a more prominent crest, Iodrome spit a poison that slowly saps the life from their prey. They are found primarily in subtropical zones.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Iodrome_Icon.png",
+          "image": "monster_iodrome.png",
           "info": "Alpha monsters that lead Ioprey. Their poison sacs allow them to attack by spitting an acrid venom."
         },
         {
@@ -5226,19 +5226,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Ioprey_Icon.png",
+          "image": "monster_ioprey.png",
           "info": "A vivid red species of small carnivores often found in subtropical zones. Sacs in their throats contain a powerful poison that slowly drains the Health of their prey.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Ioprey_Icon.png",
+          "image": "monster_ioprey.png",
           "info": "A vivid red species of small carnivores often found in subtropical zones. Sacs in their throats contain a powerful poison that slowly drains the Health of their prey.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Ioprey_Icon.png",
+          "image": "monster_ioprey.png",
           "info": "Red-scaled Bird Wyverns that attack by excreting venom from their throat sacs which they spit at foes."
         },
         {
@@ -5351,19 +5351,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Jaggi_Icon.png",
+          "image": "MHST2-Jaggi_Icon.png",
           "info": "Highly social, carnivorous bird wyverns that live in large packs. Young Jaggi males hunt in groups when attacking larger animals, and have been known to steal wyvern eggs. Research suggest they operate under orders from a single alpha male.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Jaggi_Icon.png",
+          "image": "MHST2-Jaggi_Icon.png",
           "info": "Highly social, carnivorous bird wyverns that live in large packs. Young Jaggi males hunt in groups when attacking larger animals and have been known to steal wyvern eggs. Research suggests they operate under orders from a single alpha male.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Jaggi_Icon.png",
+          "image": "MHST2-Jaggi_Icon.png",
           "info": "Highly social, carnivorous bird wyverns that live in large packs. Young Jaggi males hunt in groups when attacking larger animals and have been known to steal wyvern eggs. Research suggests they operate under orders from a single alpha male.",
           "danger": "2"
         },
@@ -5397,19 +5397,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Jaggia_Icon.png",
+          "image": "monster_jaggia.png",
           "info": "Female Jaggi that stay in groups, Jaggia generally cluster around the nest to defend it and raise whelps. Smaller than mature males, but larger than and tougher than the countless young males. Jaggia also operate under an alphas orders.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Jaggia_Icon.png",
+          "image": "monster_jaggia.png",
           "info": "Female Jaggi that stay in packs, Jaggia generally live near the nest and are responsible for defending it and raising young. Smaller than mature males, but larger and tougher than the pack's countless young males. They also operate under orders from the alpha.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Jaggia_Icon.png",
+          "image": "monster_jaggia.png",
           "info": "Female Jaggi that stay in packs, Jaggia generally live near the nest and are responsible for defending it and raising young. Smaller than mature males, but larger and tougher than the pack's countless young males. They also operate under orders from the alpha.",
           "danger": "2"
         },
@@ -5420,7 +5420,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Jaggia_Icon.png",
+          "image": "monster_jaggia.png",
           "info": "Female Jaggi that live in packs, generally responsible for protecting the nest and raising the young."
         },
         {
@@ -5556,19 +5556,19 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Kecha_Wacha_Icon.png",
+          "image": "monster_kecha_wacha.png",
           "info": "Fanged beasts with limbs adapted for swinging through forests and membranes on their forelegs for gliding. When provoked, they shield their faces with giant ears, blocking out any loud noises or bright light.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Kecha_Wacha_Icon.png",
+          "image": "monster_kecha_wacha.png",
           "info": "Fanged beasts with limbs adapted for swinging through forests and membranes on their forelegs for gliding. When provoked, they shield their faces with giant ears, blocking out any loud noises or bright light.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Kecha_Wacha_Icon.png",
+          "image": "monster_kecha_wacha.png",
           "info": "Fanged Beasts with limbs well adapted to swinging through the forest tree areas they inhabit."
         },
         {
@@ -5599,19 +5599,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Kelbi_Icon.png",
+          "image": "monster_kelbi.png",
           "info": "Small herbivores known for their gentle demeanor, as well as the medicinal properties of their horns. Those wishing to harvest a horn should stun the Kelbi with strike attacks, then sever the appendage while the animal is still alive.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Kelbi_Icon.png",
+          "image": "monster_kelbi.png",
           "info": "Small herbivores known for their gentle demeanor as well as medicinal properties of their horns. Those wishing to harvest a horn should stun the Kelbi with blunt attacks and then sever it while the animal is still alive.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Kelbi_Icon.png",
+          "image": "monster_kelbi.png",
           "info": "Small herbivores known for their gentle demeanor as well as medicinal properties of their horns. Those wishing to harvest a horn should stun the Kelbi with blunt attacks and then sever it while the animal is still alive.",
           "danger": "1"
         },
@@ -5627,7 +5627,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Kelbi_Icon.png",
+          "image": "monster_kelbi.png",
           "info": "Diminutive herbivorous monsters known for their kind nature. Their horns are said to be rich in nutrients."
         },
         {
@@ -5690,13 +5690,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Khezu_Icon.png",
+          "image": "monster_khezu.png",
           "info": "Loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell, using electric shocks to paralyze their prey before pouncing from high walls and ceilings.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Khezu_Icon.png",
+          "image": "monster_khezu.png",
           "info": "Loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell, using electric shocks to paralyze their prey before pouncing on them from the walls or ceiling.",
           "danger": "4"
         },
@@ -5708,7 +5708,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Khezu_Icon.png",
+          "image": "monster_khezu.png",
           "info": "Loathsome Flying Wyverns dwelling mainly in caves. They generate and release electricity to deadly effect."
         },
         {
@@ -5771,13 +5771,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Kirin_Icon.png",
+          "image": "monster_kirin.png",
           "info": "Elder dragons so rarely sighted that little is known of their ecology, though everyone knows of the high prices Kirin parts fetch. It's been said they are one with lightning itself, and that their bodies becomes clothed in pure electricity when they are provoked.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Kirin_Icon.png",
+          "image": "monster_kirin.png",
           "info": "Elder dragons so rarely sighted that little is known of their ecology, though everyone knows of the high prices Kirin parts fetch. It's been said they are one with lightning itself, and that their bodies becomes clothed in pure electricity when they are provoked.",
           "danger": "5"
         },
@@ -5788,7 +5788,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Kirin_Icon.png",
+          "image": "monster_kirin.png",
           "info": "Lightning-wielding mystical creature. Classified as an Elder Dragon, but its true nature remains a mystery."
         },
         {
@@ -5803,7 +5803,7 @@
         "$oid": "5e1343df25d9c11597488ae7"
       },
       "name": "Konchu",
-      "type": "Leviathan",
+      "type": "Neopteron",
       "isLarge": false,
       "weakness": [
         "Fire",
@@ -5816,19 +5816,19 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Konchu_Icon.png",
+          "image": "monster_konchu.png",
           "info": "Neopterons that travel widely for food and can survive in almost any environment. Konchu roll into balls both to protect themselves and to fend off threats. Their sturdy shells are fairly easy to procure and are highly prized by armorers.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Konchu_Icon.png",
+          "image": "monster_konchu.png",
           "info": "Neopterons that travel widely for food and can survive in almost any environment. Konchu roll into balls both to protect themselves and to fend off threats. Their sturdy shells are fairly easy to procure and are highly prized by armorers.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Konchu_Icon.png",
+          "image": "monster_konchu.png",
           "info": "Neopterons that roam in search of food. Coloration varies based on habitat, this variety being sandy yellow/ an icy blue/ a rusty red/ verdant green."
         },
         {
@@ -5947,13 +5947,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Kushala_Daora_Icon.png",
+          "image": "monster_kushala_daora.png",
           "info": "It's difficult to even get close to one of these metallic dragons, but some claim better odds if the creature is weakened with poison, or has another hunter on its back, limiting the amount of wind pressure it can muster.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Kushala_Daora_Icon.png",
+          "image": "monster_kushala_daora.png",
           "info": "It's difficult to even get close to one of these metallic dragons, but some claim better odds if the creature is weakened with poison, or has another hunter on its back, limiting the amount of wind pressure it can muster.",
           "danger": "7"
         },
@@ -5970,7 +5970,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Kushala_Daora_Icon.png",
+          "image": "monster_kushala_daora.png",
           "info": "Elder Dragon clad in metal plating. Generates storms wherever it goes. Getting close to it is no mean feat."
         },
         {
@@ -6004,13 +6004,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Lagiacrus_Icon.png",
+          "image": "monster_lagiacrus.png",
           "info": "Leviathans that exist at the top of the aquatic food chain. Feared by sailors as the \"Lords of the Seas\", Lagiacrus store enough electricity in their spinal organs to make the oceans surge. Occasionally they can be found resting on land as well.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Lagiacrus_Icon.png",
+          "image": "monster_lagiacrus.png",
           "info": "Leviathans that exist at the top of the aquatic food chain. Feared by sailors as the \"Lords of the Seas\", Lagiacrus store enough electricity in their spinal organs to make the oceans surge. Occasionally they can be found resting on land as well.",
           "danger": "5"
         },
@@ -6054,19 +6054,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Lagombi_Icon.png",
+          "image": "monster_lagombi.png",
           "info": "Fanged beasts whose warm pelts and thick layers of fat help them to survive in harsh colder climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on live prey.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Lagombi_Icon.png",
+          "image": "monster_lagombi.png",
           "info": "Fanged beasts whose warm pelts and thick layers of fat help them survive in cold climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on prey.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Lagombi_Icon.png",
+          "image": "monster_lagombi.png",
           "info": "Fanged beasts whose warm pelts and thick layers of fat help them survive in cold climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on prey.",
           "danger": "3"
         },
@@ -6078,7 +6078,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Lagombi_Icon.png",
+          "image": "monster_lagombi.png",
           "info": "White Fanged Beasts with acute hearing. They slide on the ice at high speeds to chase down their prey."
         },
         {
@@ -6127,7 +6127,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Lao-Shan_Lung_Icon.png",
+          "image": "monster_lao_shan_lung.png",
           "info": "A giant dragon that has only been rarely sighted. It periodically prowls close to inhabited areas, and the damage it causes is comparable to that wreaked by a natural disaster. Its habits are a mystery, and no one knows why it occasionally wanders. The Guild has built defensive barricades where they appear, but to what effect.",
           "danger": "7"
         }
@@ -6149,7 +6149,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Larinoth_Icon.png",
+          "image": "monster_larinoth.png",
           "info": "These giant herbivores are peaceful towards hunters unless their young are threatened. Their long necks let them eat hard-to-reach leaves and nuts, which they may drop if attacked while feeding, and eat constantly to maintain their size. They also have a unique sound-producing organs.",
           "danger": "1"
         },
@@ -6184,7 +6184,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Lavasioth_Icon.png",
+          "image": "monster_lavasioth.png",
           "info": "A piscine wyvern that resides in magma. Its scales are covered by layers of cooled magma, providing it with formidable defense. It swims around in lava, sucking in molten rock to spew at its prey. Its peculiar biology makes it a popular research subject.",
           "danger": "4"
         },
@@ -6297,13 +6297,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Ludroth_Icon.png",
+          "image": "monster_ludroth.png",
           "info": "Aquatic female monsters. Ludroth form \"harems\" around large males, hence gathering in territories designated as breeding grounds. They are known to be extremely aggressive towards outsiders; caution is advised.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Ludroth_Icon.png",
+          "image": "monster_ludroth.png",
           "info": "Aquatic female monsters. Ludroth form \"harems\" around large males, gathering in territories designated as breeding grounds. They're known to be extremely aggressive towards outsiders, so caution is advised when treading in their territory.",
           "danger": "2"
         },
@@ -6394,7 +6394,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Maccao_Icon.png",
+          "image": "monster_maccao.png",
           "info": "Colorful red and green bird wyverns that live in large packs, they can be found mostly in the Jurassic Frontier. Though they attack prey aggressively with their strong legs, they are known to flee once their leader is in danger.",
           "danger": "2"
         }
@@ -6501,7 +6501,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Malfestio_Icon.png",
+          "image": "monster_malfestio.png",
           "info": "A bird wyvern which is most at home in the dark. It catches prey with its wings and talons. Its pivoting neck is characteristic, and it's worth a look to see it turned completely around to look behind itself. Scales in its wings can scatter a pollen that can cause confuse its foes.",
           "danger": "4"
         }
@@ -6558,19 +6558,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Melynx_Icon.png",
+          "image": "monster_melynx.png",
           "info": "Bipedal creatures resembling cats, known for their dark hair. more curious then Felynes and possessed by kleptomania, Melynxes take what they steal back to their dens. Felvine intoxicates them, causing them to sometimes drop items.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Melynx_Icon.png",
+          "image": "monster_melynx.png",
           "info": "Bipedal creatures resembling cats, known for their dark hair. more curious then Felynes and possessed by kleptomania, Melynxes take what they steal back to their dens. Felvine intoxicates them, causing them to sometimes drop items.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Melynx_Icon.png",
+          "image": "monster_melynx.png",
           "info": "Bipedal creatures resembling cats, known for their dark hair. more curious then Felynes and possessed by kleptomania, Melynxes take what they steal back to their dens. Felvine intoxicates them, causing them to sometimes drop items.",
           "danger": "2"
         },
@@ -6628,7 +6628,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Mizutsune_Icon.png",
+          "image": "monster_mizutsune.png",
           "info": "A specially evolved Leviathan with a sleek, lithe body. Mizutsune can secrete a peculiar fluid that covers its foes in immobilizing bubbles. Once its foe's movement is impaired, it closes in with spry, dance-like movements.",
           "danger": "5"
         },
@@ -6667,13 +6667,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Molten_Tigrex_Icon.png",
+          "image": "MHST2-Molten_Tigrex_Icon.png",
           "info": "A rare Tigrex variant theorized to exist after the discovery of claw marks and prints far larger than those of an ordinary Tigrex. With no confirmed first-hand sightings, its existence remains a matter of debate among hunters.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Molten_Tigrex_Icon.png",
+          "image": "MHST2-Molten_Tigrex_Icon.png",
           "info": "A rare Tigrex subspecies. Its existence is unconfirmed due to lack of reliable, and living, eye-witness accounts."
         },
         {
@@ -6705,13 +6705,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Monoblos_Icon.png",
+          "image": "MHFU-Monoblos_Icon.png",
           "info": "A monocerous desert-dwelling wyvern able to burrow swiftly through the sand. It puts its horn to lethal use with a charging thrust, and while it possesses no breath attack, its roar is loud enough to split human eardrums.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Monoblos_Icon.png",
+          "image": "MHST2-Monoblos_Icon.png",
           "info": "Endowed with an impressive cranial horn. It uses its horn in brutal attacks, screeching ear-splitting war cries."
         },
         {
@@ -6737,7 +6737,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Moofah_Icon.png",
+          "image": "monster_moofah.png",
           "info": "Small herbivores that can be found on the Deserted Island. Their soft, high-quality fur has been used since ancient times in clothing and ceremonial tools, and can be shaved off of them with cutting weapons. They are docile and raised as livestock in many regions.",
           "danger": "1"
         }
@@ -6764,7 +6764,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Mosswine_Icon.png",
+          "image": "monster_mosswine.png",
           "info": "Wild pigs covered in moss and fungus. Sometimes you will even find mushrooms growing on them. Their meat is known as a delicacy, and although normally docile, they will charge when provoked.",
           "danger": "1"
         },
@@ -6796,13 +6796,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Najarala_Icon.png",
+          "image": "monster_najarala.png",
           "info": "A monster that stuns its prey with vibrations from its scales, then wraps around and constricts its victims. Should a Najarala start to coil around you, a quick escape or quick kill are your only chances of survival.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Najarala_Icon.png",
+          "image": "monster_najarala.png",
           "info": "A monster that stuns its prey with vibrations from its scales, then wraps around and constricts its victims. Once a Najarala start to coil around its prey, a quick escape or a mortal blow to it are the only things that will offer a chance at survival.",
           "danger": "4"
         }
@@ -6834,7 +6834,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Nakarkos_Icon.png",
+          "image": "monster_nakarkos.png",
           "info": "Frighteningly little is known about this elder dragon whose appetite can devastate surrounding ecosystems. After covering its prey in a repulsive mucus, it has been seen dragging them back to feast in its macabre nest of bones and undulating darkness known as Wyvern's End.",
           "danger": "8"
         }
@@ -6892,13 +6892,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Nargacuga_Icon.png",
+          "image": "monster_nargacuga.png",
           "info": "Flying wyverns that have evolved to live in thickly wooded areas. These sly beasts stalk their prey from the shadows with ferocious speed and dogged tenacity, and their massive tails are as dexterous as they are deadly.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Nargacuga_Icon.png",
+          "image": "monster_nargacuga.png",
           "info": "Flying wyverns that have evolved to live in thickly wooded areas. These sly beasts stalk their prey from the shadows with ferocious speed and dogged tenacity. Their massive tails are as dexterous as they are deadly, and powerful enough to slay smaller monsters with one strike.",
           "danger": "5"
         },
@@ -7000,13 +7000,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Nerscylla_Icon.png",
+          "image": "monster_nerscylla.png",
           "info": "A Temnoceran that spins webs to defend territory and hunt prey. They bind foes that have been weakened by ailments and devour them with giant mandibles. They are fond of wearing the hides left by the Gypceros prey they consume.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Nerscylla_Icon.png",
+          "image": "monster_nerscylla.png",
           "info": "A Temnoceran that spins webs to defend territory and hunt prey. They bind foes that have been weakened by ailments and devour them with giant mandibles. They are fond of wearing the hides left by the Gypceros prey they consume.",
           "danger": "4"
         },
@@ -7017,7 +7017,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Nerscylla_Icon.png",
+          "image": "monster_nerscylla.png",
           "info": "Temnocerans that build nests of sticky webbing to ensnare prey, which they rend with their mandibles."
         },
         {
@@ -7059,13 +7059,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Nibelsnarf_Icon.png",
+          "image": "monster_nibelsnarf.png",
           "info": "Leviathans that have adapted to live in sandy areas. They burrow beneath the desert and locate prey aurally, then suck both the target and any surrounding sand into their maws. The gill-like organs in their mouths are thought to absorb nutrients.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Nibelsnarf_Icon.png",
+          "image": "monster_nibelsnarf.png",
           "info": "Leviathans that have adapted to live in sandy areas. They burrow beneath the desert and locate prey aurally, then suck both the target and any surrounding sand into their maws. The gill-like organs in their mouths are thought to absorb nutrients.",
           "danger": "4"
         }
@@ -7088,7 +7088,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Nightcloak_Malfestio_Icon.png",
+          "image": "monster_nightcloak_malfestio.png",
           "info": "This huge bird wyvern with its twilight-colored wings uses special scales to refract light and hide itself from its prey. This is why it's also known as \"Nightcloak\". Whoever or whatever sees it, be they monster or human, stands no chance of survival. Requires special permission to hunt.",
           "danger": "5"
         }
@@ -7275,13 +7275,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Oroshi_Kirin_Icon.png",
+          "image": "MHST2-Oroshi_Kirin_Icon.png",
           "info": "Reliable sightings of these elusive creatures are virtually nonexistent. The few reports available claim that temperatures plummet whenever they appear, as all moisture in the air spontaneously freezes.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Oroshi_Kirin_Icon.png",
+          "image": "MHST2-Oroshi_Kirin_Icon.png",
           "info": "Mythical beasts that few have encountered. It is said that temperatures around them plummet below zero."
         },
         {
@@ -7343,13 +7343,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Pink_Rathian_Icon.png",
+          "image": "MHST2-Pink_Rathian_Icon.png",
           "info": "A subspecies of Rathian with vibrant pink scales. Pink Rathian wield their toxic tails more skillfully than normal Rathian, using a wide variety of attacks to weaken their prey before eventually moving in for the kill.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Pink_Rathian_Icon.png",
+          "image": "MHST2-Pink_Rathian_Icon.png",
           "info": "A subspecies of Rathian with vibrant pink scales. Pink Rathian wield their toxic tails more skillfully than normal Rathian, using a wide variety of attacks to weaken their prey before eventually moving in for the kill.",
           "danger": "5"
         },
@@ -7360,7 +7360,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Pink_Rathian_Icon.png",
+          "image": "MHST2-Pink_Rathian_Icon.png",
           "info": "A vivid, pink-scaled Rathian subspecies. Its tail attacks are far more powerful than those of a regular Rathian."
         },
         {
@@ -7414,13 +7414,13 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Plesioth_Icon.png",
+          "image": "monster_plesioth.png",
           "info": "Giant piscine wyverns with swift and varied underwater movements, as well as deadly breath and charging attacks. Plesioth are agitated by loud noises, so approach warily. Their favorite food is frogs.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Plesioth_Icon.png",
+          "image": "monster_plesioth.png",
           "info": "Giant piscine wyverns which can be spotted near bodies of water. Where wings would be found on other wyverns, it has developed fins specialized for swimming, and, as a result, cannot fly. Despite its fish-like appearance, it is just as comfortable on land.",
           "danger": "4"
         },
@@ -7455,13 +7455,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Plum_Daimyo_Hermitaur_Icon.png",
+          "image": "MHFU-Plum_Daimyo_Hermitaur_Icon.png",
           "info": "A large Carapaceon characterized by its distinct coloring and the massive monster skull it carries on its back. Unlike more common varieties, it leaps high into the air and onto foes, making it especially deadly.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Plum_Daimyo_Hermitaur_Icon.png",
+          "image": "MHST2-Plum_Daimyo_Hermitaur_Icon.png",
           "info": "Armored Carapaceons that approach their prey with blinding speed and strike using their powerful claws."
         },
         {
@@ -7489,19 +7489,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Popo_Icon.png",
+          "image": "monster_popo.png",
           "info": "Herd-forming herbivores covered in thick fur to endure the cold. Popo are gentle, but known to use their massive tusks bravely when defending their young. Popo meat is very nutritious; the tongue is said to be especially palatable.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Popo_Icon.png",
+          "image": "monster_popo.png",
           "info": "Herd-forming herbivores covered in thick fur to endure the cold. Popo are gentle, but known to use their massive tusks bravely when defending their young. Popo meat is very nutritious; the tongue is said to be especially palatable.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Popo_Icon.png",
+          "image": "monster_popo.png",
           "info": "Herd-forming herbivores covered in thick fur to endure the cold. Popo are gentle, but known to use their massive tusks bravely when defending their young. Popo meat is very nutritious; the tongue is said to be especially palatable.",
           "danger": "1"
         },
@@ -7517,7 +7517,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Popo_Icon.png",
+          "image": "monster_popo.png",
           "info": "Herd-forming Herbivores covered in long, thick fur. Popo meat is nutritious and prized by gourmands."
         },
         {
@@ -7626,13 +7626,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Purple_Gypceros_Icon.png",
+          "image": "MHFU-Purple_Gypceros_Icon.png",
           "info": "A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Purple_Gypceros_Icon.png",
+          "image": "MHST2-Purple_Gypceros_Icon.png",
           "info": "A subspecies of Gypceros with a uniquely colored hide. It attacks by spitting highly venomous waste."
         },
         {
@@ -7767,7 +7767,7 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Qurupeco_Icon.png",
+          "image": "MHST2-Qurupeco_Icon.png",
           "info": "Bird Wyverns with unique plumage. Well known for using their thoracic vocal organs to imitate others monsters calls, first summoning them, then using the distraction to flee. The creature spits a dangerous body fluid that can lower one's Resistance.",
           "danger": "3"
         },
@@ -7853,7 +7853,7 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Raging_Brachydios_Icon.png"
+          "image": "monster_raging_brachydios.png"
         },
         {
           "game": "Monster Hunter World",
@@ -7889,13 +7889,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Rajang_Icon.png",
+          "image": "monster_rajang.png",
           "info": "An ultra-aggressive creature that is rarely sighted and seldom survived. Survivors report it exhibits a strange attack. The Rajang is said to be a loner, and this isolated life has made it difficult to pin down its territorial leanings.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Rajang_Icon.png",
+          "image": "monster_rajang.png",
           "info": "An ultra-aggressive creature that is rarely sighted and seldom survived. Survivors report it exhibits a strange attack. The Rajang is said to be a loner, and this isolated life has made it difficult to pin down its territorial leanings.",
           "danger": "6"
         },
@@ -7912,7 +7912,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Rajang_Icon.png",
+          "image": "monster_rajang.png",
           "info": "Ultra-aggressive Fanged Beasts. Widely regarded as the pinnacle in unparalleled physical prowess."
         },
         {
@@ -8004,19 +8004,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Rathalos_Icon.png",
+          "image": "monster_rathalos.png",
           "info": "Terrible wyverns called the 'Kings of the Skies'. Together with Rathian, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and breath of fire.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Rathalos_Icon.png",
+          "image": "monster_rathalos.png",
           "info": "Terrible wyverns called the 'Kings of the Skies'. Along with Rathians, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and breath of fire.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Rathalos_Icon.png",
+          "image": "monster_rathalos.png",
           "info": "Terrible wyverns called the 'Kings of the Skies'. Along with Rathians, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and breath of fire.",
           "danger": "5"
         },
@@ -8038,7 +8038,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Rathalos_Icon.png",
+          "image": "monster_rathalos.png",
           "info": "Dubbed the King of the Skies, it dominates battle with its powerful wings and poison-tipped claws."
         },
         {
@@ -8080,19 +8080,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Rathian_Icon.png",
+          "image": "monster_rathian.png",
           "info": "Fire-breathing female wyverns, also known as the \"Queens of the Land\". With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathian cooperate well with Rathalos.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Rathian_Icon.png",
+          "image": "monster_rathian.png",
           "info": "Fire-breathing female wyverns, also known as the \"Queens of the Land\". With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathians and Rathalos cooperate well.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Rathian_Icon.png",
+          "image": "monster_rathian.png",
           "info": "Fire-breathing female wyverns, also known as the \"Queens of the Land\". With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathians and Rathalos cooperate well.",
           "danger": "4"
         },
@@ -8114,7 +8114,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Rathian_Icon.png",
+          "image": "monster_rathian.png",
           "info": "Female Flying Wyverns dubbed Queens of the Land. Possess powerful legs, and deadly, poisonous tails."
         },
         {
@@ -8148,13 +8148,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Red_Khezu_Icon.png",
+          "image": "monster_red_khezu.png",
           "info": "A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Red_Khezu_Icon.png",
+          "image": "monster_red_khezu.png",
           "info": "Khezu subspecies with red bodies. Its electrical power is far more advanced than that of its white cousin."
         },
         {
@@ -8181,7 +8181,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Redhelm_Arzuros_Icon.png",
+          "image": "monster_redhelm_arzuros.png",
           "info": "A ruffian known for its wild, red mane of hair. Unrivaled in its cruelty, sightings of a Redhelm near human settlements is a serious call for alarm, though very few can handle hunting it. As it's far more likely for a would-be hunter to end up as its lunch, it requires special permission to hunt.",
           "danger": "5"
         }
@@ -8204,18 +8204,18 @@
       "games": [
         {
           "game": "Monster Hunter Freedom Unite",
-          "image": "MH4U-Remobra_Icon.png",
+          "image": "monster_remobra.png",
           "info": "Small wyverns with outstanding flying abilities, they loiter in the skies waiting to prey upon weakened animals. Known to attack alongside Elder Dragons, they are known as an omen to disaster."
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Remobra_Icon.png",
+          "image": "monster_remobra.png",
           "info": "Small but agile flying wyverns that seek out weakened creatures to attack. Often seen near elder dragons, they're considered a portent of disaster. The discovery of Najarala led to their reclassification as Snake Wyverns.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Remobra_Icon.png",
+          "image": "monster_remobra.png",
           "info": "Small but agile flying wyverns that seek out weakened creatures to attack. Often seen near elder dragons, they're considered a portent of disaster. The discovery of Najarala led to their reclassification as Snake Wyverns.",
           "danger": "2"
         },
@@ -8226,7 +8226,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Remobra_Icon.png",
+          "image": "monster_remobra.png",
           "info": "Snake Wyverns that have mastered flight, and which soar in search of weakened prey to swoop upon."
         },
         {
@@ -8276,19 +8276,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Rhenoplos_Icon.png",
+          "image": "monster_rhenoplos.png",
           "info": "Extremely territorial herbivores with poor vision, but very acute hearing. Rhenoplos will doggedly pursue any nearby target they sense. They often collide into boulders, perhaps because they cannot easily stop once they begin to run.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Rhenoplos_Icon.png",
+          "image": "monster_rhenoplos.png",
           "info": "Extremely territorial herbivores with poor vision but acute hearing, Rhenoplos will doggedly pursue any target they sense. They often run into boulders, perhaps because they cannot easily stop once they break into a run.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Rhenoplos_Icon.png",
+          "image": "monster_rhenoplos.png",
           "info": "Extremely territorial herbivores with poor vision but acute hearing, Rhenoplos will doggedly pursue any target they sense. They often run into boulders, perhaps because they cannot easily stop once they break into a run.",
           "danger": "2"
         },
@@ -8472,13 +8472,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Royal_Ludroth_Icon.png",
+          "image": "monster_royal_ludroth.png",
           "info": "Royal Ludroth use their sponge-like neck scales to absorb water and keep from drying out on land. Once the sponge loses moisture, they attempt to re-enter the water. They also spew mucus to trip up their prey.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Royal_Ludroth_Icon.png",
+          "image": "monster_royal_ludroth.png",
           "info": "Royal Ludroth use their sponge-like neck scales to absorb water and keep from drying out on land. Once the sponge loses moisture, they attempt to re-enter the water. They also spew mucus to trip up their prey.",
           "danger": "3"
         },
@@ -8490,7 +8490,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHGen-Royal_Ludroth_Icon.png",
+          "image": "monster_royal_ludroth.png",
           "info": "Royal Ludroth use their sponge-like neck scales to absorb water and prevent dehydration."
         },
         {
@@ -8523,13 +8523,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Ruby_Basarios_Icon.png",
+          "image": "monster_ruby_basarios.png",
           "info": "A Basarios variant that scatters crystals from its back to fend off attackers, offering those nearby a chance to mine for rare minerals. Jump on one when its back carapace is broken to make it roll over and expose its weak underbelly.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Ruby_Basarios_Icon.png",
+          "image": "monster_ruby_basarios.png",
           "info": "Basarios subspecies that coats its carapace with rare ore. It scatters this with great force during battle."
         },
         {
@@ -8607,7 +8607,7 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Rusted_Kushala_Daora_Icon.png"
+          "image": "monster_rusted_kushala_daora.png"
         }
       ]
     },
@@ -8633,7 +8633,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Rustrazor_Ceanataur_Icon.png",
+          "image": "monster_rustrazor_ceanataur.png",
           "info": "The Rustrazor Ceanataur uses its huge pincers and the shell on its back to attack any assailants. From its Gravios shell it shoots jets of water that drill into the ground, and its Glavenus-shaped pincers can shear through steel. This two-sided nature makes it a force to be reckoned with, and earned it the name \"Rustrazor\". Requires special permission to hunt.",
           "danger": "5"
         }
@@ -8714,16 +8714,16 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Deviljho_Icon.png",
+          "image": "monster_savage_deviljho.png",
           "info": "The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. Needing to feed constantly due to high body heat, they can hunt nearby animals to extinction."
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4-Savage_Deviljho_Icon.png"
+          "image": "monster_savage_deviljho.png"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4-Savage_Deviljho_Icon.png"
+          "image": "monster_savage_deviljho.png"
         },
         {
           "game": "Monster Hunter World",
@@ -8737,7 +8737,7 @@
         "$oid": "5e15c12c8a80af35ce52d7ad"
       },
       "name": "Scarred Yian Garuga",
-      "type": "Flying Wyvern",
+      "type": "Bird Wyvern",
       "isLarge": true,
       "elements": [
         "Fire"
@@ -8756,7 +8756,7 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Yian_Garuga_Icon.png",
+          "image": "monster_yian_garuga.png",
           "info": "A close relative of the Yian Kut-Ku known for its hard black shell and tufts of white mane. These clever monsters are known to avoid traps and use their poisonous tail to deadly effect; they are not to be taken lightly.",
           "danger": "5"
         },
@@ -8842,13 +8842,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Seltas_Icon.png",
+          "image": "monster_seltas.png",
           "info": "Neopterons that use swift aerial movements to attack invaders on the ground. The sharp appendages on their heads can make their lunging attacks quite dangerous, though they sometimes overshoot their targets and slam into the ground.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Seltas_Icon.png",
+          "image": "monster_seltas.png",
           "info": "A medium-sized Neopteron that use swift aerial movements to attack invaders on the ground. It can also store a corrosive liquid inside itself, which it can shoot from its stinger-shaped abdomen.",
           "danger": "3"
         },
@@ -8884,13 +8884,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Seltas_Queen_Icon.png",
+          "image": "monster_seltas_queen.png",
           "info": "Unable to fly by themselves, these wingless female Neopterons release pheromones to lure in male Seltas to serve as thralls. Seltas Queens possess an extremely heavy carapace, but their mucus-spewing maw is vulnerable when exposed.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Seltas_Queen_Icon.png",
+          "image": "monster_seltas_queen.png",
           "info": "Unable to fly by themselves, these wingless female Neopterons release pheromones to lure in male Seltas to serve as thralls. Seltas Queens possess a hard carapace, which they use to protect their vulnerable abdomens and mucus-spewing maws, which are vulnerable when exposed.",
           "danger": "5"
         },
@@ -8918,7 +8918,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Seregios_Icon.png",
+          "image": "monster_seregios.png",
           "info": "An elusive breed of wyvern only rarely spotted throughout the lands in recent years. Known for its ability to launch razor-edged scales, and for its powerful legs and talons which it uses to latch itself onto its prey.",
           "danger": "5"
         },
@@ -8935,7 +8935,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Seregios_Icon.png",
+          "image": "monster_seregios.png",
           "info": "Flying Wyvern known for its lustrous golden scales. Its scales can be launched at prey in high-speed attacks."
         },
         {
@@ -8965,13 +8965,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Shagaru_Magala_Icon.png",
+          "image": "monster_shagaru_magala.png",
           "info": "The distinctive radiant light of the mature Gore Magala has been seen in the Sanctuary of Heaven's Mount. Some believe Shagaru Magala was the \"foul wind that withered a mountain,\" a calamity spoken of in ancient texts.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Shagaru_Magala_Icon.png",
+          "image": "monster_shagaru_magala.png",
           "info": "The distinctive radiant light of the mature Gore Magala has been seen in the Sanctuary of Heaven's Mount. Some believe Shagaru Magala was the \"foul wind that withered a mountain,\" a calamity spoken of in ancient texts.",
           "danger": "6"
         },
@@ -9130,7 +9130,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Shogun_Ceanataur_Icon.png",
+          "image": "monster_shogun_ceanataur.png",
           "info": "A large Carapaceon with a giant monster's skull on its back. Its long, sharp pincers allow it to pierce volcanic bedrock and travel along ceilings. Sometimes, a precious and valuable pearl can be found inside its shell.",
           "danger": "4"
         },
@@ -9187,13 +9187,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Shrouded_Nerscylla_Icon.png",
+          "image": "monster_shrouded_nerscylla.png",
           "info": "Desert-dwelling Temnocerans who lure threats into sand traps, then tear into the ensnared prey using their scissor-like mandibles. Similar to their more common cousins, they wear the skins of their prey -- most often Khezu.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Shrouded_Nerscylla_Icon.png",
+          "image": "monster_shrouded_nerscylla.png",
           "info": "Temnocerans that inhabit desert areas. They lurk beneath the sands in order ambush unwary prey."
         },
         {
@@ -9229,19 +9229,19 @@
         },
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Silver_Rathalos_Icon.png",
+          "image": "monster_silver_rathalos.png",
           "info": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Silver_Rathalos_Icon.png",
+          "image": "monster_silver_rathalos.png",
           "info": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Silver_Rathalos_Icon.png",
+          "image": "monster_silver_rathalos.png",
           "info": "A rare variant of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behavior or physiology--including the source of their rich silver sheen.",
           "danger": "6"
         },
@@ -9258,7 +9258,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Silver_Rathalos_Icon.png",
+          "image": "monster_silver_rathalos.png",
           "info": "A rare Rathalos subspecies. Its piercing silver shimmer resembles the blazing sun."
         },
         {
@@ -9285,7 +9285,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Silverwind_Nargacuga_Icon.png",
+          "image": "monster_silverwind_nargacuga.png",
           "info": "White streaks like polish on a blade. Flashes from a tail that cleave the earth, sunder rock, and split the sky. The \"Silverwind\" summons a gale that slices. The careless fool is unaware, until his head falls cleanly from his shoulders. Requires special permission to hunt.",
           "danger": "6"
         },
@@ -9310,19 +9310,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Slagtoth_Icon.png",
+          "image": "monster_slagtoth.png",
           "info": "Herbivores that live near water in the Volcano and Flooded Forest. Their heavy, sagging hides store nutrients, and are prized for their resistance to heat and water. Males are quite territorial, often refusing to flee from even invading wyverns.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Slagtoth_Icon.png",
+          "image": "monster_slagtoth.png",
           "info": "Herbivores that live in coastal areas. Their heavy, sagging hides store nutrients and are prized for their heat and water resistance. The males are quite territorial, often refusing to flee from even invading wyverns.",
           "danger": "1"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Slagtoth_Icon.png",
+          "image": "monster_slagtoth.png",
           "info": "Herbivores that live in coastal areas. Their heavy, sagging hides store nutrients and are prized for their heat and water resistance. The males are quite territorial, often refusing to flee from even invading wyverns.",
           "danger": "1"
         },
@@ -9333,7 +9333,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Slagtoth_Icon.png",
+          "image": "monster_slagtoth.png",
           "info": "A green\\brown variety of Slagtoth. They store nutrients in the thick layers of skin that hang from their bodies."
         },
         {
@@ -9365,7 +9365,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Snowbaron_Lagombi_Icon.png",
+          "image": "monster_snowbaron_lagombi.png",
           "info": "The outlaw of the frozen wasteland, the \"Snowbaron\" can be found jauntily sliding around any territory that it has claimed as its own. Its playful antics, however, can mean one more village buried under an avalanche. A dangerous foe that requires special permission to hunt.",
           "danger": "5"
         }
@@ -9423,7 +9423,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Soulseer_Mizutsune_Icon.png",
+          "image": "monster_soulseer_mizutsune.png",
           "info": "A Mizutsune that has lost its eyesight but adapted to use its bubbles as another sense. Rumor says that the malice of an undying grudge burns within its closed eyes. Those it catches in its bubbles know the true meaning of its nickname, \"Soulseer\". Requires special permission to hunt.",
           "danger": "6"
         },
@@ -9480,7 +9480,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Stonefist_Hermitaur_Icon.png",
+          "image": "monster_stonefist_hermitaur.png",
           "info": "The \"Stonefist\" is a Hermitaur with an enlarged left pincer which doubles as a sturdy black shield. Its armor causes blades to shatter, and for shots to bounce off, filling the Hunter with holes instead. Requires special permission to hunt.",
           "danger": "5"
         }
@@ -9511,7 +9511,7 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Stygian_Zinogre_Icon.png",
+          "image": "MH3U-Stygian_Zinogre_Icon.png",
           "info": "A subspecies of Zinogre with a jet-black body. It gathers bugs that eat Dragonfell Berries and uses their Dragon Element energy to boost its own power. Perhaps this is why it can survive in scorching heat or freezing cold.",
           "danger": "5"
         },
@@ -9522,7 +9522,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Stygian_Zinogre_Icon.png",
+          "image": "MHST2-Stygian_Zinogre_Icon.png",
           "info": "Feeding on Dracophage Bugs has given this subspecies access to unheard of brute strength."
         },
         {
@@ -9579,13 +9579,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Teostra_Icon.png",
+          "image": "monster_teostra.png",
           "info": "Brutal elder dragons clothed in flame that spit blazing fire. Teostra are of such a fierce and deadly nature that the Guild keeps track of their movements whenever possible.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Teostra_Icon.png",
+          "image": "monster_teostra.png",
           "info": "Brutal elder dragons clothed in flame that spit blazing fire. Teostra are of such a fierce and deadly nature that the Guild keeps track of their movements whenever possible.",
           "danger": "7"
         },
@@ -9602,7 +9602,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Teostra_Icon.png",
+          "image": "monster_teostra.png",
           "info": "Wreathed in flame and wielding blistering breath attacks, the Guild monitors its movements and moods."
         },
         {
@@ -9679,13 +9679,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Tetsucabra_Icon.png",
+          "image": "monster_tetsucabra.png",
           "info": "Amphibians with unique jaws and tusks that they use to sift through rocks for prey. They use their powerful hind legs to traverse steep terrain. The tail supports movement, but can become vulnerable with exertion.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Tetsucabra_Icon.png",
+          "image": "monster_tetsucabra.png",
           "info": "Amphibians with unique jaws and tusks that they use to sift through rocks for prey. They use their powerful hind legs to traverse steep terrain. It can also use the large boulders it digs up to obstruct a predator's vision and make a hasty retreat.",
           "danger": "3"
         },
@@ -9745,7 +9745,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Thunderlord_Zinogre_Icon.png",
+          "image": "monster_thunderlord_zinogre.png",
           "info": "A Zinogre robed in lightning: the King of the Thunder Wolves is a legend. \"With one howl, the heavens loose a thousand flashes, and ten thousand peals of thunder. Approach it not, anger it not -- for the wrath of the 'Thunderlord' shows no mercy.\" Requires special permission to hunt.",
           "danger": "6"
         },
@@ -9834,13 +9834,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Tigrex_Icon.png",
+          "image": "monster_tigrex.png",
           "info": "Flying wyverns whose primitive origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs. They inhabit a wide area, and have been spotted as far off as the Frozen Seaway.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Tigrex_Icon.png",
+          "image": "monster_tigrex.png",
           "info": "Flying wyverns whose primitive origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs. They inhabit a wide area searching for prey, and have even been spotted in regions of harsh cold.",
           "danger": "5"
         },
@@ -9857,7 +9857,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Tigrex_Icon.png",
+          "image": "monster_tigrex.png",
           "info": "Primeval in appearance, these Flying Wyverns are possessed of fearsome limbs, jaws and claws."
         },
         {
@@ -9952,13 +9952,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Ukanlos_Icon.png",
+          "image": "monster_ukanlos.png",
           "info": "An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends.",
           "danger": "6"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Ukanlos_Icon.png",
+          "image": "monster_ukanlos.png",
           "info": "An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends.",
           "danger": "7"
         }
@@ -9989,13 +9989,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Uragaan_Icon.png",
+          "image": "monster_uragaan.png",
           "info": "Large brute wyverns that feed on ore, using their mighty jaws to crush bedrock to powder. They cleverly affix rocks and ore to their hides with lava, then cast them about, using vibrations to make them explode. When they fall, ore can be mined from their bodies.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Uragaan_Icon.png",
+          "image": "monster_uragaan.png",
           "info": "Large brute wyverns that feed on ore, using their mighty jaws to crush bedrock to powder. They cleverly affix rocks and ore to their hides with lava, then cast them about, using vibrations to make them explode. When they fall, ore can be mined from their bodies.",
           "danger": "5"
         },
@@ -10035,13 +10035,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Uroktor_Icon.png",
+          "image": "monster_uroktor.png",
           "info": "Leviathans that inhabit volcanoes. Noted for swarming around larger monsters' kills in order to feed. Uroktor rarely hunt for themselves, but stab upward at prey from the ground when they do. Known for being highly aggressive.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Uroktor_Icon.png",
+          "image": "monster_uroktor.png",
           "info": "Leviathans that inhabit volcanoes. Noted for swarming around larger monsters' kills in order to feed. Uroktor rarely hunt for themselves, but stab upward at prey from the ground when they do. Known for being highly aggressive.",
           "danger": "2"
         },
@@ -10137,7 +10137,7 @@
       "games": [
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGU-Valstrax_Icon.png",
+          "image": "monster_valstrax.png",
           "info": "An elder dragon that soars at very high altitudes far from human habitation. Its flaming red wings are often the only visible sign of it, giving rise to its nickname, the Argent Comet. Those wings aren't just for flying, though, and are easily used to stab, rend and blow away its enemies. Occasionally, one can find the scorched shells it has left behind.",
           "danger": "6"
         }
@@ -10199,19 +10199,19 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Velocidrome_Icon.png",
+          "image": "monster_velocidrome.png",
           "info": "Alpha monsters that lead Velociprey packs. Larger than their brothers and with a more prominent crest, Velocidrome use their strong hind legs to leap at prey, pinning them with sharp claws before calling for others.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Velocidrome_Icon.png",
+          "image": "monster_velocidrome.png",
           "info": "Alpha monsters that lead Velociprey packs. Larger than their brothers and with a more prominent crest, Velocidrome use their strong hind legs to leap at prey, pinning them with sharp claws before calling for others.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Velocidrome_Icon.png",
+          "image": "monster_velocidrome.png",
           "info": "Alpha monsters that lead the smaller Velociprey. Note their larger size, impressive frill, and sharper claws."
         },
         {
@@ -10240,13 +10240,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Velociprey_Icon.png",
+          "image": "monster_velociprey.png",
           "info": "Aggressive, carnivorous monsters that often travel and hunt in packs -- even master hunters are careful to not let themselves get surrounded by these predators. In this region, they're known to inhabit the Everwood.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Velociprey_Icon.png",
+          "image": "monster_velociprey.png",
           "info": "Aggressive, carnivorous monsters that often travel and hunt in packs -- even master hunters are careful to not let themselves get surrounded by these predators. In this region, they're known to inhabit the Verdant Hills and the Primal Forest.",
           "danger": "2"
         },
@@ -10257,31 +10257,13 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Velociprey_Icon.png",
+          "image": "monster_velociprey.png",
           "info": "Carnivorous monsters with vivid blue scales. They hunt in packs using a deadly mix of strength and cunning."
         },
         {
           "game": "Monster Hunter Stories 2",
           "image": "MHST2-Velociprey_Icon.png",
           "info": "Carnivorous monsters with vivid blue scales. They hunt in packs, using aggression and strength to surround and overwhelm prey."
-        }
-      ]
-    },
-    {
-      "_id": {
-        "$oid": "5e25a0247cc58343965ed7e9"
-      },
-      "name": "Versa Pietru",
-      "type": "Elder Dragon",
-      "isLarge": true,
-      "weakness": [
-        "Fire"
-      ],
-      "games": [
-        {
-          "game": "Monster Hunter Stories",
-          "image": "MHST-Versa_Pietru_Icon.png",
-          "info": "Legendary White Dragon. Lights up the skies, pierces through darkness; the very embodiment of hope."
         }
       ]
     },
@@ -10307,7 +10289,7 @@
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Vespoid_Icon.png",
+          "image": "monster_vespoid.png",
           "info": "An enormous, wasp-like insectoid with a poisonous stinger that paralyzes prey. Easily damaged, there are rarely any usable parts left to harvest from them once they are killed. But if you could sap their Health gradually...",
           "danger": "1"
         },
@@ -10328,7 +10310,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MHST-Vespoid_Icon.png",
+          "image": "MHST2-Vespoid_Icon.png",
           "info": "Giant Wasp-like Neopeterons with paralyzing stingers, which they use on any who stray too close."
         },
         {
@@ -10428,13 +10410,13 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Volvidon_Icon.png",
+          "image": "monster_volvidon.png",
           "info": "Fanged beasts with thick red carapaces that are resistant to lava. Their rounded bodies are perfect for rolling across hot surfaces, and their long tongues are ideal for capturing insect prey. Their saliva emits a paralyzing toxin that should be avoided.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MHGen-Volvidon_Icon.png",
+          "image": "monster_volvidon.png",
           "info": "Fanged beasts with thick red carapaces that are resistant to lava. Their rounded bodies are perfect for rolling across hot surfaces, and their long tongues are ideal for capturing insect prey. Their saliva emits a paralyzing toxin that should be avoided.",
           "danger": "4"
         },
@@ -10468,7 +10450,7 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Unknown_Icon.png",
+          "image": "monster_fatalis.png",
           "danger": "6"
         }
       ]
@@ -10490,13 +10472,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-White_Monoblos_Icon.png",
+          "image": "MHFU-White_Monoblos_Icon.png",
           "info": "A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-White_Monoblos_Icon.png",
+          "image": "MHST2-White_Monoblos_Icon.png",
           "info": "Fiercer than its cousins, this white subspecies should be approached with the utmost caution."
         },
         {
@@ -10677,13 +10659,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Yian_Garuga_Icon.png",
+          "image": "monster_yian_garuga.png",
           "info": "A close relative of the Yian Kut-Ku known for its hard black shell and tufts of white mane. These clever monsters are known to avoid traps and use their poisonous tail to deadly effect; they are not to be taken lightly.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Yian_Garuga_Icon.png",
+          "image": "monster_yian_garuga.png",
           "info": "A close relative of the Yian Kut-Ku known for its hard black scales and tufts of white mane. More belligerent that its flighter cousins, these clever monsters are known to rationally observe their prey, even when angered. They are not to be taken lightly.",
           "danger": "5"
         },
@@ -10694,7 +10676,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Yian_Garuga_Icon.png",
+          "image": "monster_yian_garuga.png",
           "info": "Bird Wyvern known for their hard shells and long manes. Aggressive, prone to attack unprovoked."
         },
         {
@@ -10732,13 +10714,13 @@
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Yian_Kut-Ku_Icon.png",
+          "image": "monster_yian_kut_ku.png",
           "info": "A bird wyvern with a huge beak and large ears that splay open when it is angered. Due to its sensitive hearing it dislikes loud noises. It is smaller but faster than other wyverns.",
           "danger": "3"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Yian_Kut-Ku_Icon.png",
+          "image": "monster_yian_kut_ku.png",
           "info": "A bird wyvern with a huge beak and large ears that splay open when it is angered. Quick on its feet, and known to be territorial. It's known for its love of Konchu, and has been observed digging them up out of the ground to swallow them whole.",
           "danger": "3"
         },
@@ -10749,7 +10731,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Yian_Kut-Ku_Icon.png",
+          "image": "monster_yian_kut_ku.png",
           "info": "Monsters boasting ample beaks and fan-like ears that splay open when angered. Konchu are a staple food."
         },
         {
@@ -10780,13 +10762,13 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Zamite_Icon.png",
+          "image": "monster_zamite.png",
           "info": "Juvenile Zamtrios that use their sharp teeth to pierce the hide of their prey and then burrow inside to consume them from within; those who are attacked must roll around vigorously to shake the monster off. Zamite grow rapidly after even a single feeding.",
           "danger": "2"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Zamite_Icon.png",
+          "image": "monster_zamite.png",
           "info": "Juvenile Zamtrios that use their sharp teeth to pierce the hide of their prey and then burrow inside to consume them from within; those who are attacked must roll around vigorously to shake the monster off. Zamite grow rapidly after even a single feeding.",
           "danger": "2"
         },
@@ -10797,7 +10779,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Zamite_Icon.png",
+          "image": "monster_zamite.png",
           "info": "A young Zamtrios. Uses its sharp teeth to bore into its prey before devouring it from the inside out."
         },
         {
@@ -10833,19 +10815,19 @@
       "games": [
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Zamtrios_Icon.png",
+          "image": "monster_zamtrios.png",
           "info": "Amphibians that strike from frozen waters, using the cold to stun their prey. They secrete a special liquid that both coats their own body with icy armor and freezes any nearby foes. Frogs are their favorite food.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Zamtrios_Icon.png",
+          "image": "monster_zamtrios.png",
           "info": "Amphibians that strike from frozen waters, using the cold to stun their prey. They secrete a special liquid that both coats their own body with icy armor and freezes any nearby foes. Frogs are their favorite food.",
           "danger": "4"
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Zamtrios_Icon.png",
+          "image": "monster_zamtrios.png",
           "info": "Amphibian monsters known for the astonishing changes that occur when they coat their bodies in icy armor."
         },
         {
@@ -10879,19 +10861,19 @@
       "games": [
         {
           "game": "Monster Hunter 3 Ultimate",
-          "image": "MH3U-Zinogre_Icon.png",
+          "image": "monster_zinogre.png",
           "info": "Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain. During hunts, they gather numerous Thunderbugs to boost their power and enter a supercharged state.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter 4 Ultimate",
-          "image": "MH4U-Zinogre_Icon.png",
+          "image": "monster_zinogre.png",
           "info": "Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain. During hunts, they gather numerous Thunderbugs to boost their power and enter a supercharged state.",
           "danger": "5"
         },
         {
           "game": "Monster Hunter Generations Ultimate",
-          "image": "MH4U-Zinogre_Icon.png",
+          "image": "monster_zinogre.png",
           "info": "Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain. During hunts, they gather numerous Thunderbugs to boost their power and enter a supercharged state.",
           "danger": "5"
         },
@@ -10908,7 +10890,7 @@
         },
         {
           "game": "Monster Hunter Stories",
-          "image": "MH4U-Zinogre_Icon.png",
+          "image": "monster_zinogre.png",
           "info": "Fanged Wyverns that store the electrical energy of the countless Thunderbugs that they gather."
         },
         {

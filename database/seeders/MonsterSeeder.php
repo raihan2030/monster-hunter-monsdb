@@ -7,6 +7,7 @@ use App\Models\Series;
 use App\Models\Type;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 
 class MonsterSeeder extends Seeder
 {
@@ -30,6 +31,7 @@ class MonsterSeeder extends Seeder
             // 1. Simpan data monster (Ubah 'type' menjadi 'type_id')
             $monster = Monster::create([
                 'mongo_id'   => $monsterData['_id']['$oid'] ?? null,
+                'slug'       => Str::slug($monsterData['name']),
                 'name'       => $monsterData['name'],
                 'type_id'    => $typesMap[$monsterData['type']] ?? null, // Ambil ID dari mapping
                 'isLarge'    => $monsterData['isLarge'] ?? false,

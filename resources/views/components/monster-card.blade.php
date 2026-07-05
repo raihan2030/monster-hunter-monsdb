@@ -7,7 +7,7 @@
     ]) }}>
 
     <img src="{{ asset('/img/icons/' . $image) }}" alt="{{ $name }}"
-        class="h-2/3 lg:h-4/7 object-cover object-center rounded-xl" />
+        class="h-2/3 lg:h-4/7 object-cover object-center rounded-xl text-xs font-normal text-center" />
 
     <p class="text-xs text-center font-bold pt-2 sm:hidden">
         {{ Str::limit($name, 8, '...') }}

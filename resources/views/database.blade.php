@@ -128,6 +128,7 @@
                         <x-monster-card 
                             :image="$monster->pivot->image" 
                             :name="$monster->name"
+                            :link="route('monster.show', ['monster' => $monster->slug, 'series' => isset($series) ? $series->slug : null])"
                         />
                     @endforeach
                 </div>

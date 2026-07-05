@@ -24,19 +24,17 @@
                     </button>
                 </div>
                 <div class="flex shrink-0 items-center">
-                    <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                        alt="Your Company" class="h-8 w-auto" />
+                    {{-- <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                        alt="Your Company" class="h-8 w-auto" /> --}}
                 </div>
                 <div class="hidden sm:ml-6 sm:block">
                     @php
-                        $firstSeries = $mainSeriesGrid[0]
+                        $firstSeries = $mainSeriesGrid[0];
                     @endphp
                     <div class="flex space-x-4">
                         <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                         <a href="{{ route('home') }}" aria-current="page"
                             class="rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white">Home</a>
-                        <a href="{{ route('database.show', ['series' => $firstSeries]) }}"
-                            class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                         <a href="#"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
                             Site</a>
@@ -54,8 +52,6 @@
                 <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" -->
                 <a href="{{ route('home') }}" aria-current="page"
                     class="block rounded-md bg-gray-950/50 px-3 py-2 text-base font-medium text-white">Home</a>
-                <a href="{{ route('database.show', ['series' => 'monster-hunter-freedom-unite']) }}"
-                    class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Database</a>
                 <a href="#"
                     class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">About
                     Site</a>
@@ -71,11 +67,25 @@
 
         <img src="/img/749574.jpg" alt="Home BG" class="w-full h-full object-cover object-center brightness-50">
 
-        <div class="absolute inset-0 flex items-center justify-center text-center p-4">
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-4">
             <h2 class="flex flex-col gap-1 text-white tracking-tight drop-shadow-lg">
-                <span class="text-6xl font-bold">MonsDB</span>
-                <span class="text-xl font-normal">Monster Database for Monster Hunter Games</span>
+                <span class="text-4xl sm:text-6xl font-bold">MonsDB</span>
+                <span class="text-base sm:text-xl font-normal">Monster Database for Monster Hunter Games</span>
             </h2>
+
+            @php
+                $firstSeries = $mainSeriesGrid[0];
+            @endphp
+            <a href="{{ route('database.show', ['series' => $firstSeries]) }}"
+                class="mt-6 px-6 py-3 bg-blue-700 hover:bg-blue-900 text-white font-bold text-base sm:text-lg rounded-xl shadow-xl transition-all duration-300 transform hover:scale-105 inline-flex items-center gap-2.5 border border-blue-500 hover:shadow-blue-500/20">
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                    stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                </svg>
+                Open Monster Database
+            </a>
         </div>
 
     </div>
@@ -87,7 +97,7 @@
                 Database Stats
             </p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-7 p-4">
+        <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-4.5 sm:gap-7 p-4">
             <x-stats-card>
                 <x-slot:header>Total Monsters</x-slot:header>
                 {{ $totalMonsters }}
