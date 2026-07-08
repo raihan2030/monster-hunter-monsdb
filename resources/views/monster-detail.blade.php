@@ -169,20 +169,16 @@
                     <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 shadow-xl">
                         <h2 class="text-xl font-bold mb-4 border-b border-gray-700 pb-2 text-blue-500">Elemental
                             Weaknesses</h2>
-                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
+                        <div class="flex flex-wrap gap-2">
                             @foreach ($monster->weakness as $element)
                                 @php
                                     $iconName = $elementImages[strtolower($element)] ?? strtolower($element) . '.png';
                                 @endphp
-                                <div
-                                    class="bg-slate-900 p-3 rounded-xl border border-gray-700 flex justify-between items-center">
-                                    <span class="capitalize font-medium text-gray-300 inline-flex items-center gap-2">
-                                        <x-elemental-icon :image="$iconName" />
-                                        {{ $element }}
-                                    </span>
-                                    <span
-                                        class="text-emerald-400 font-bold text-xs bg-emerald-500/10 px-2.5 py-1 rounded-md border border-emerald-500/20">Weak</span>
-                                </div>
+                                <span
+                                    class="px-3 py-1.5 bg-slate-900 rounded-xl border border-gray-700 text-sm font-semibold text-gray-200 inline-flex items-center gap-2">
+                                    <x-elemental-icon :image="$iconName" />
+                                    {{ $element }}
+                                </span>
                             @endforeach
                         </div>
                     </div>

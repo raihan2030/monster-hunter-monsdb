@@ -3,7 +3,7 @@
     'isActive' => false,
 ])
 
-<a href="{{ route('database.show', ['series' => $item->slug]) }}" 
+<a href="{{ route('database.show', array_merge(['series' => $item->slug], request()->only(['search', 'size', 'type']))) }}" 
     aria-current="{{ $isActive ? 'page' : 'false' }}"
     class="relative flex items-center h-10 pl-6 rounded-full after:block after:w-2 after:h-2 after:rounded-sm after:absolute after:-left-2 
     {{ $isActive
