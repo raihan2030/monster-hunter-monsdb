@@ -7,7 +7,6 @@
             
             <!-- Profile Picture Placeholder -->
             <div class="w-36 h-36 bg-slate-900 rounded-full flex items-center justify-center shrink-0 border-4 border-blue-500 overflow-hidden shadow-lg">
-                {{-- Uncomment the img tag below if you want to use a real profile photo --}}
                 <img src="/img/profile/my_photo.jpeg" alt="Developer Profile" class="w-full h-full object-cover">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-16 h-16 text-gray-500">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
