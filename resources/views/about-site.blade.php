@@ -16,37 +16,37 @@
             <h2 class="text-2xl font-bold border-b border-gray-700 pb-2 mb-6 text-blue-400">Key Site Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Card 1 -->
-                <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 shadow-xl hover:border-blue-500 transition-all duration-300">
-                    <div class="text-blue-500 mb-3">
+                <x-key-site-feature-card>
+                    <x-slot:featureIcon>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.637 10.637z" />
                         </svg>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2">Real-Time Search</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">Find your favorite monsters instantly as you type in the search bar without manual submission.</p>
-                </div>
+                    </x-slot:featureIcon>
+                    <x-slot:featureTitle>Real-Time Search</x-slot:featureTitle>
+                    <x-slot:featureDescription>Find your favorite monsters instantly as you type in the search bar without manual submission.</x-slot:featureDescription>
+                </x-key-site-feature-card>
 
                 <!-- Card 2 -->
-                <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 shadow-xl hover:border-blue-500 transition-all duration-300">
-                    <div class="text-blue-500 mb-3">
+                <x-key-site-feature-card>
+                    <x-slot:featureIcon>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
                         </svg>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2">Size & Type Filters</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">Easily filter down monsters based on their size class (Small/Large) or ecological category types.</p>
-                </div>
+                    </x-slot:featureIcon>
+                    <x-slot:featureTitle>Size & Type Filters</x-slot:featureTitle>
+                    <x-slot:featureDescription>Easily filter down monsters based on their size class (Small/Large) or ecological category types.</x-slot:featureDescription>
+                </x-key-site-feature-card>
 
                 <!-- Card 3 -->
-                <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 shadow-xl hover:border-blue-500 transition-all duration-300">
-                    <div class="text-blue-500 mb-3">
+                <x-key-site-feature-card>
+                    <x-slot:featureIcon>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                    </div>
-                    <h3 class="text-lg font-bold mb-2">Accurate Data</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">View elemental vulnerabilities, weaknesses, and status ailments specific to each game version.</p>
-                </div>
+                    </x-slot:featureIcon>
+                    <x-slot:featureTitle>Accurate Data</x-slot:featureTitle>
+                    <x-slot:featureDescription>View elemental vulnerabilities, weaknesses, and status ailments specific to each game version.</x-slot:featureDescription>
+                </x-key-site-feature-card>
             </div>
         </div>
 

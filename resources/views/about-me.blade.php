@@ -39,15 +39,9 @@
 
                 <!-- External Links / Contact -->
                 <div class="pt-4 border-t border-gray-700/50 flex flex-wrap justify-center md:justify-start gap-3">
-                    <a href="https://github.com/raihan2030" target="_blank" class="px-4 py-2 bg-slate-900 border border-gray-600 hover:border-blue-500 text-xs font-semibold rounded-xl transition inline-flex items-center gap-2">
-                        GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/in/muhammad-raihan-8699342a1/" target="_blank" class="px-4 py-2 bg-slate-900 border border-gray-600 hover:border-blue-500 text-xs font-semibold rounded-xl transition inline-flex items-center gap-2">
-                        LinkedIn
-                    </a>
-                    <a href="mailto:raihan.muhammad.bjm@gmail.com" class="px-4 py-2 bg-slate-900 border border-gray-600 hover:border-blue-500 text-xs font-semibold rounded-xl transition inline-flex items-center gap-2">
-                        Contact Email
-                    </a>
+                    <x-external-link-btn href="https://github.com/raihan2030">GitHub</x-external-link-btn>
+                    <x-external-link-btn href="https://www.linkedin.com/in/muhammad-raihan-8699342a1/">LinkedIn</x-external-link-btn>
+                    <x-external-link-btn href="mailto:raihan.muhammad.bjm@gmail.com">Contact Email</x-external-link-btn>
                 </div>
             </div>
 
